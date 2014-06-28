@@ -1,11 +1,19 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import unittest
+import os
 
-from cocktail import main
+from cocktail import parsers
 
-class TestCalculator(unittest.TestCase):
+class TestParser(unittest.TestCase):
 
-    def setUp(self):
-        self.calc = main.Calculator()
+  def setUp(self):
+    self.ingredient_parser = parsers.IngredientParser()
 
-    def test_add(self):
-        self.assertEqual(self.calc.add(1, 2), 3)
+  def test_ingredient_parser(self):
+    ingredients = self.ingredient_parser.parse_from_file('resources/ingredients.txt')
+    
+    self.assertEqual(91, len(ingredients))
+    self.assertEqual('acaciahonung', ingredients[0])
+    self.assertEqual('äppeljuice', ingredients[90])
