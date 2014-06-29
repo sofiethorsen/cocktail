@@ -18,9 +18,10 @@ class TestIngredientParser(unittest.TestCase):
 
   def test_parse_ten(self):
     ingredients = self.parser.parse_from_file('tests/testfiles/ingredient10.txt')
+    expected_name = unicode(u'blåbär')
 
     self.assertEqual(10, len(ingredients))
-    self.assertEqual('blåbär', ingredients[9])
+    self.assertEqual(expected_name, ingredients[9])
 
 class TestRecipeParser(unittest.TestCase):
 
@@ -51,6 +52,7 @@ class TestRecipeParser(unittest.TestCase):
     recipes = self.parser.parse_from_file('tests/testfiles/recipe1.txt')
     desc = ('Fyll ett shotglas med mandarinvodka. Doppa apelsinklyftan i grenadin '
     'och därefter i socker. Balansera apelsinklyftan elegant ovanpå glaset och servera.')
+    desc = unicode(desc.decode('utf-8'))
 
     self.assertEqual(desc, recipes[0].description)
 

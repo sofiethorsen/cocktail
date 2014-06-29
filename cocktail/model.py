@@ -1,4 +1,46 @@
-class Recipe(object):
+from sqlalchemy import Column, Integer, Unicode
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+
+class Ingredient(Base):
+  __tablename__ = 'ingredients'
+
+  _id = Column(Integer, autoincrement=True, primary_key=True)
+  name = Column(Unicode)
+  name2 = Column(Unicode)
+  type = Column(Unicode)
+
+  def __init__(self, name, name2, type):
+    self.name = name
+    self.name2 = name2
+    self.type = type
+
+class Recipe(Base):
+  __tablename__ = 'recipes'
+
+  _id = Column(Integer, autoincrement=True, primary_key=True)
+  name = Column(Unicode)
+  description = Column(Unicode)
+
+  def __init__(self, name, description):
+    self.name = name
+    self.description = description
+
+class RecipeItem(Base):
+  __tablename__ = 'recipe_items'
+
+  _id = Column(Integer, autoincrement=True, primary_key=True)
+  recipe_id = Column(Integer)
+  name = Column(Unicode)
+  amount = Column(Unicode)
+
+  def __init__(self, recipe_id, name, amount):
+    self.recipe_id = recipe_id
+    self.name = name
+    self.amount = amount
+
+class RecipeObject(object):
   def __init__(self, name, description, ingredients):
     self.name = name
     self.description = description

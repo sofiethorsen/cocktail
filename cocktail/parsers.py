@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from model import Recipe
+
+from model import RecipeObject
 
 def isNumber(x):
   try:
@@ -15,7 +16,7 @@ class IngredientParser(object):
 
   def parse_from_file(self, path):
     with open(path) as ingredients_file:
-      return [ingredient.strip('\n') for ingredient in ingredients_file]
+      return [unicode(ingredient.strip('\n').decode('utf-8')) for ingredient in ingredients_file]
 
 class RecipeParser(object):
   def __init__(self):
@@ -61,10 +62,10 @@ class RecipeParser(object):
     recipes = []
     with open(path) as recipes_file:
       while(True):
-          name = self._getline(recipes_file)
+          name = unicode(self._getline(recipes_file).decode('utf-8'))
           if not name: break 
           number_of_ingredients = int(recipes_file.readline())   
           ingredients = self._ingredients_from_file(recipes_file, number_of_ingredients)
-          description = self._description_from_file(recipes_file)
-          recipes.append(Recipe(name, description.strip('\n'), ingredients))
+          description = unicode(self._description_from_file(recipes_file).decode('utf-8'))
+          recipes.append(RecipeObject(name, description.strip('\n'), ingredients))
       return recipes
