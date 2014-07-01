@@ -3,6 +3,7 @@
 
 from parsers import IngredientParser, RecipeParser
 from model import Ingredient, Recipe, RecipeItem
+from utilities import encode
 
 import db
 
@@ -20,10 +21,10 @@ for recipe in recipes:
   db.add_model(recipe_entry)
 
   for substance, amount, metric in recipe.ingredients:
-    substance = unicode(substance.decode('utf-8'))
+    substance = encode(substance)
     if not amount:
       recipe_item = RecipeItem(recipe_entry._id, substance, None)
     else:
-      tail = unicode((amount + ' ' + metric).decode('utf-8'))
+      tail = encode(amount + ' ' + metric)
       recipe_item = RecipeItem(recipe_entry._id, substance, tail)
     db.add_model(recipe_item)
