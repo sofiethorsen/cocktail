@@ -51,10 +51,10 @@ class RecipeParser(object):
             containsNoDigits = False
 
         if containsNoDigits:
-          ingredients.append((ingredient, '', ''))
+          ingredients.append((encode(ingredient), '', ''))
         else:
           amount, metric, substance = parts[0], parts[1], ' '.join(parts[2:])
-          ingredients.append((substance, amount, metric))
+          ingredients.append((encode(substance), encode(amount), encode(metric)))
 
     return ingredients
 

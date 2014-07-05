@@ -3,7 +3,7 @@
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-from model import Ingredient
+from model import Article, Ingredient, Recipe, RecipeItem
 
 DB_URI = 'postgresql://drinkappuser@localhost/drinkapp'
 
@@ -13,3 +13,6 @@ session = sessionmaker(bind=engine)()
 def add_model(model):
   session.add(model)
   session.commit()
+
+def all_recipes():
+  return session.query(Recipe).all()

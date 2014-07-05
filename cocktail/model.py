@@ -3,6 +3,14 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+class Article(Base):
+    __tablename__ = 'articles'
+
+    _id = Column(Integer, primary_key=True)
+    name = Column(Unicode)
+    name2 = Column(Unicode)
+    category = Column(Unicode)
+
 class Ingredient(Base):
   __tablename__ = 'ingredients'
 
