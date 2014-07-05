@@ -1406,7 +1406,7 @@ socker
 Frosta kanten av ett cocktailglas med citron och socker och ställ på kylning. Mixa ingredienserna i en blender med krossad is till "halvfrozen" konsistens - den ska inte kännas som sorbet, bara bli kall. Häll direkt upp i det kylda cocktailglaset.
 *
 Strawberry Martini
-4
+3
 3 cl gin
 1 cl vermouth
 1 cl jordgubbssaft
