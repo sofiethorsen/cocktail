@@ -10,6 +10,12 @@ DB_URI = 'postgresql://drinkappuser@localhost/drinkapp'
 engine = create_engine(DB_URI, encoding='utf-8')
 session = sessionmaker(bind=engine)()
 
+def add(model):
+	session.add(model)
+
+def commit():
+	session.commit()
+
 def add_model(model):
   session.add(model)
   session.commit()
