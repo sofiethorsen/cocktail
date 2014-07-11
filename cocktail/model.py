@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, Unicode
+from sqlalchemy import Column, Integer, Unicode, BigInteger
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -6,8 +6,8 @@ Base = declarative_base()
 class Article(Base):
     __tablename__ = 'articles'
 
-    _id = Column(Integer, primary_key=True)
-    name = Column(Unicode)
+    _id = Column(BigInteger)
+    name = Column(Unicode, primary_key=True)
     name2 = Column(Unicode)
     category = Column(Unicode)
 
