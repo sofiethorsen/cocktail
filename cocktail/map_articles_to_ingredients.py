@@ -17,7 +17,7 @@ for recipe in db.all_recipes():
 					ingredient = Ingredient(article.name, article.name2, article.category)
 
 		else:
-			for article in db.articles_by_name_or_category(recipe_item.name):
+			for article in db.articles_by_name_or_type(recipe_item.name):
 				if article not in ingredients:
 					ingredients.add(article)
 					ingredient = Ingredient(article.name, article.name2, article.category)

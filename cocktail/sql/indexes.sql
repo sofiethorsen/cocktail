@@ -1,1 +1,1 @@
-CREATE INDEX group_index ON articles(category);
+CREATE INDEX group_index ON articles(type);

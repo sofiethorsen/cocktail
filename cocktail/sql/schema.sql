@@ -1,6 +1,6 @@
 CREATE TABLE articles(name TEXT,
 					  name2 TEXT,
-					  category TEXT);
+					  type TEXT);
 
 CREATE TABLE recipes(_id SERIAL PRIMARY KEY,
 					 name TEXT UNIQUE,

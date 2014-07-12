@@ -28,13 +28,13 @@ def create_sql_insert(values):
 schema = [
   'name',
   'name2',
-  'category'
+  'type'
 ]
 
 mappings = {
   'name': fromAttribute('Namn', unicode),
   'name2' : fromAttribute('Namn', unicode, 'Namn2'),
-  'category': fromAttribute('Varugrupp', change_category)
+  'type': fromAttribute('Varugrupp', change_category)
 }
 
 

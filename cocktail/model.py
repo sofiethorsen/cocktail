@@ -9,7 +9,7 @@ class Article(Base):
     _id = Column(BigInteger)
     name = Column(Unicode, primary_key=True)
     name2 = Column(Unicode)
-    category = Column(Unicode)
+    type = Column(Unicode)
 
 class Ingredient(Base):
   __tablename__ = 'ingredients'
