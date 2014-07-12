@@ -15,12 +15,15 @@ for recipe in recipes:
 	db.add_model(recipe_entry)
 
 	for substance, amount, metric in recipe.ingredients:
-		if not amount:
-			recipe_item = RecipeItem(recipe_entry._id, substance, None)
-		else:
-			recipe_item = RecipeItem(recipe_entry._id, substance, (amount + ' ' + metric))
+		amount_descriptor = None
+		if amount:
+			amount_descriptor = (amount + ' ' + metric)
+		
+		is_type = True
+		if db.articles_by_exact_name(substance):
+			is_type = False
 
-		db.add_model(recipe_item)
+		db.add_model(RecipeItem(recipe_entry._id, substance, amount_descriptor, is_type))
 
 print 'Added ' + str(count) + ' recipes'
 

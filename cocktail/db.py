@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
-from model import Article, Ingredient, Recipe, RecipeItem
+from sqlalchemy import create_engine, func
+from model import Article, Recipe, RecipeItem
 
 DB_URI = 'postgresql://drinkappuser@localhost/drinkapp'
 
@@ -22,6 +22,15 @@ def add_model(model):
 
 def all_recipes():
   return session.query(Recipe).all()
+
+def articles_by_exact_name(name):
+  return session.query(Article).filter(
+    (func.lower(Article.name) == func.lower(name)) |
+    (func.lower(Article.name2) == func.lower(name))).all()
+
+def articles_by_type(type):
+  return session.query(Article).filter(
+    (func.lower(Article.category) == func.lower(type))).all()
 
 def recipe_items_by_recipe_id(recipe):
   return session.query(RecipeItem).filter_by(recipe_id=recipe._id).all()

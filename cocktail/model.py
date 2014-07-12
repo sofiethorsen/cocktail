@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, Unicode, BigInteger
+from sqlalchemy import Column, Integer, Unicode, BigInteger, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -42,11 +42,13 @@ class RecipeItem(Base):
   recipe_id = Column(Integer)
   name = Column(Unicode)
   amount = Column(Unicode)
+  is_type = Column(Boolean)
 
-  def __init__(self, recipe_id, name, amount):
+  def __init__(self, recipe_id, name, amount, is_type):
     self.recipe_id = recipe_id
     self.name = name
     self.amount = amount
+    self.is_type = is_type
 
 class RecipeObject(object):
   def __init__(self, name, description, ingredients):

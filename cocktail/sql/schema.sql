@@ -9,7 +9,8 @@ CREATE TABLE recipes(_id SERIAL PRIMARY KEY,
 CREATE TABLE recipe_items(_id SERIAL PRIMARY KEY,
 						   recipe_id INTEGER,
 						   name TEXT,
-						   amount TEXT);
+						   amount TEXT,
+						   is_type BOOLEAN);
 
 CREATE TABLE ingredients(_id SERIAL PRIMARY KEY,
 						 name TEXT,
