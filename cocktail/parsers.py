@@ -41,7 +41,7 @@ class RecipeParser(object):
       ingredient = self._getline(file)
 
       if len(ingredient.split(' ')) == 1: 
-        ingredients.append((ingredient, '', ''))
+        ingredients.append((encode(ingredient), '', ''))
       else:
         parts = ingredient.split(' ')
 
