@@ -28,6 +28,9 @@ def articles_by_exact_name(name):
     (func.lower(Article.name) == func.lower(name)) |
     (func.lower(Article.name2) == func.lower(name))).all()
 
+def article_by_name(string):
+  return session.query(Article).filter(Article.name.ilike('%' + string + '%')).all()
+
 def articles_by_type(type):
   return session.query(Article).filter(
     (func.lower(Article.category) == func.lower(type))).all()

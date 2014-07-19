@@ -30,6 +30,6 @@ print 'Added ' + str(count) + ' recipes'
 count = 0
 for ingredient in ingredients:
 	count +=1
-	db.add_model(Ingredient(ingredient, None, encode('extra')))
+	db.add_model(Ingredient(ingredient, None, ingredient))
 
 print 'Added ' + str(count) + ' ingredients'
