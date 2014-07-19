@@ -3,7 +3,9 @@
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, func
-from model import Article, Recipe, RecipeItem
+from model import Article, Recipe, RecipeItem, Ingredient
+
+import categories
 
 DB_URI = 'postgresql://drinkappuser@localhost/drinkapp'
 
@@ -33,7 +35,10 @@ def article_by_name(string):
 
 def articles_by_type(type):
   return session.query(Article).filter(
-    (func.lower(Article.category) == func.lower(type))).all()
+    (func.lower(Article.type) == func.lower(type))).all()
+
+def recipe_by_recipe_item(recipe_item):
+  return session.query(Recipe).filter_by(_id=recipe_item.recipe_id).all()
 
 def recipe_items_by_recipe_id(recipe):
   return session.query(RecipeItem).filter_by(recipe_id=recipe._id).all()
@@ -43,3 +48,26 @@ def articles_by_name_or_type(name):
     Article.name.ilike('%' + name + '%') | 
     Article.name2.ilike('%' + name + '%') |
     Article.type.ilike('%' + name + '%')).all()
+
+def recipe_items_by_ingredient_type(type):
+  return session.query(RecipeItem).filter(
+    (func.lower(RecipeItem.name) == func.lower(type))).all()
+
+def distinct_types(input_types):
+  result = set()
+  types = set()
+
+  for word in input_types:
+    for key, values in categories.case_insensitive_categories.items():
+      if word.lower() in values:
+        types.add(categories.all_categories[key])
+
+  for type in types:
+    descriptions = type.split(', ')
+    if len(descriptions) > 1:
+      for desc in descriptions: 
+        result.add(desc)
+    else:
+        result.add(type)
+
+  return result

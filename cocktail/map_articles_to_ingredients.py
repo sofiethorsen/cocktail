@@ -14,13 +14,13 @@ for recipe in db.all_recipes():
 			for article in db.articles_by_type(recipe_item.name):
 				if article not in ingredients:
 					ingredients.add(article)
-					ingredient = Ingredient(article.name, article.name2, article.category)
+					ingredient = Ingredient(article.name, article.name2, article.type)
 
 		else:
 			for article in db.articles_by_name_or_type(recipe_item.name):
 				if article not in ingredients:
 					ingredients.add(article)
-					ingredient = Ingredient(article.name, article.name2, article.category)
+					ingredient = Ingredient(article.name, article.name2, article.type)
 					db.add(ingredient)
 
 db.commit()
