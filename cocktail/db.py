@@ -43,6 +43,15 @@ def recipe_by_recipe_item(recipe_item):
 def recipe_items_by_recipe_id(recipe):
   return session.query(RecipeItem).filter_by(recipe_id=recipe._id).all()
 
+def recipe_items_by_ingredient_name(ingredient_item):
+  if ingredient_item.name2:
+    return session.query(RecipeItem).filter(RecipeItem.name.ilike(ingredient_item.name2)).all()
+  else:
+    return session.query(RecipeItem).filter(RecipeItem.name.ilike(ingredient_item.name)).all()
+
+def recipe_item_by_recipe(recipe):
+  return session.query(RecipeItem).filter_by(recipe_id=recipe._id).all()
+
 def articles_by_name_or_type(name):
   return session.query(Article).filter(
     Article.name.ilike('%' + name + '%') | 
@@ -52,6 +61,19 @@ def articles_by_name_or_type(name):
 def recipe_items_by_ingredient_type(type):
   return session.query(RecipeItem).filter(
     (func.lower(RecipeItem.name) == func.lower(type))).all()
+
+def ingredients_by_exact_name2(string):
+  return session.query(Ingredient).filter(Ingredient.name2.ilike(string)).all()
+
+def ingredients_by_exact_name(string):
+  return session.query(Ingredient).filter(Ingredient.name.ilike(string)).all() 
+
+def ingredients_by_exact_names(string):
+  name2_results = ingredients_by_exact_name2(string)
+  if name2_results:
+    return name2_results
+  else:
+    return ingredients_by_exact_name(string)
 
 def distinct_types(input_types):
   result = set()

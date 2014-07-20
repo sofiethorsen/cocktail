@@ -40,12 +40,24 @@ def search_recipes_by_ingredient():
       for recipe in db.recipe_by_recipe_item(recipe_item):
         add_ingredient(recipes, recipe, recipe_item)
 
+  # search by name
+  for ingredient in name_ingredients:
+    for ingredient_item in db.ingredients_by_exact_names(ingredient):
+      for recipe_item in db.recipe_items_by_ingredient_name(ingredient_item):
+        for recipe in db.recipe_by_recipe_item(recipe_item):
+          add_ingredient(recipes, recipe, recipe_item)
 
   for recipe in recipes:
-    recipes[recipe]['ingredients'] = list(recipes[recipe]['ingredients'])
-    recipes[recipe]['numOfMatches'] = len(recipes[recipe]['ingredients'])
+    num_of_ingredients = recipes[recipe]['numberOfIngredients']
+    num_of_matches = len(recipes[recipe]['matches'])
 
-  sorted_recipes = sorted(recipes.items(), key = lambda x :x[1]['numOfMatches'], reverse = True)
+    difference = num_of_ingredients - num_of_matches
+
+    recipes[recipe]['nonMatches'] = list(recipes[recipe]['nonMatches'] - recipes[recipe]['matches'])
+    recipes[recipe]['matches'] = list(recipes[recipe]['matches'])
+    recipes[recipe]['difference'] = difference
+
+  sorted_recipes = sorted(recipes.items(), key = lambda x :(x[1]['difference'], x[1]['numberOfIngredients']))
   result.append(dict(recipes=sorted_recipes))
 
   return jsonify(result=result)
@@ -56,10 +68,15 @@ def add_ingredient(recipes_dict, recipe, recipe_item):
     recipes_dict[recipe.name] = {}
     ingredients = set()
     ingredients.add(recipe_item.name)
-    recipes_dict[recipe.name]['ingredients'] = ingredients
+
+    all_ingredients = set(item.name for item in db.recipe_item_by_recipe(recipe))
+
+    recipes_dict[recipe.name]['numberOfIngredients'] = len(all_ingredients)
+    recipes_dict[recipe.name]['description'] = recipe.description
+    recipes_dict[recipe.name]['matches'] = ingredients
+    recipes_dict[recipe.name]['nonMatches'] = all_ingredients
   else:
-    recipe_item.name 
-    recipes_dict[recipe.name]['ingredients'].add(recipe_item.name)
+    recipes_dict[recipe.name]['matches'].add(recipe_item.name)
 
 if __name__ == "__main__":
   app.run(port=5000, host='0.0.0.0', debug=True)
