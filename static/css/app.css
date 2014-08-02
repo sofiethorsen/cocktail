@@ -1,0 +1,65 @@
+body {
+  color: #E5FFFB;
+  background-color: #16A085;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 48px;
+  margin-left: 15px;
+}
+
+.article, .recipe {
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.article:nth-child(even), .recipe:nth-child(odd) {
+  background-color: #00A987;
+}
+
+.article:nth-child(odd), .recipe:nth-child(even) {
+  background-color: #048B70;
+}
+
+.tag {
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.ingredient {
+  color: #E5FFFB;
+  background-color: #036653;
+}
+
+.recipe > .ingredient {
+  font-size: 12px;
+  color: white;
+  background-color: #036653;
+}
+
+.recipe > .ingredient.have {
+  color: #036653;
+  background-color: white;
+}
+
+.recipe:hover {
+  opacity: 0.5;
+}
+
+#current {
+    width: 300px;
+    background: #00896D;
+    position: fixed;
+    border-radius: 2px;
+    border: 3px solid #026652;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px; /* negative half the size of height */
+    margin-left: -150px; /* negative half the size of width */
+    z-index: 11;
+    padding: 5px;
+}

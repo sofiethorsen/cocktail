@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cocktail">
+<head>
+  <meta charset='UTF-8'>
+  <title>vadharduhemma</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+  <link rel="stylesheet" href="css/app.css"/>
+  <script src="lib/jquery/jquery-2.0.3.js"></script>
+  <script src="lib/bootstrap/bootstrap.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="js/values.js"></script>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body ng-controller="SerachCtrl">
+  
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <h1 class="span12">vadharduhemma</h1>
+    </div>
+
+    <div class="row-fluid">
+      
+      <div class="span6">
+        <div id="current" ng-show="currentRecipe['active']">
+          <center><h2>{{currentRecipe.name}}</h2></center>
+          <li 
+            style="list-style:none" 
+            ng-repeat="(ingredient, amount) in currentRecipe['ingredients'] track by $index">
+            <span ng-if="amount">{{amount}}</span>
+            <span>{{ingredient}}</span>
+          </li></br>
+          <span>{{currentRecipe.description}}</span> </br>&nbsp;
+          <center><button ng-click="closeOverlay()" class="btn btn-success">Stäng</button></center>
+        </div>
+
+        <div class="row-fluid">
+          <h2>... typ av sprit, tillbehör?</h2>
+          <input class="span" id="ingredients" type="text" placeholder="Ex vodka, lime..." ng-model="ingredient" ng-change="onChange()">
+        </div>
+
+        <div class="row-fluid">
+          <div class="ingredient tag" ng-repeat="ingredient in ingredients track by $index">
+            <span ng-if="ingredient.categorySearch" ng-click="removeIngredient(ingredient)" class="fa fa-times">
+              {{ingredient.type}}
+            </span>
+            <span ng-if="!ingredient.categorySearch" ng-click="removeIngredient(ingredient)" class="fa fa-times">
+              <span ng-if="ingredient.name2"> {{ingredient.name2}} </span>
+              <span ng-if="!ingredient.name2"> {{ingredient.name}} </span>
+            </span>
+          </div> 
+        </div>
+
+        <div class="article row-fluid" ng-repeat="article in articles | limitTo:'10'"> 
+          <div class="span12" ng-click="addIngredient(article)">
+            &nbsp;
+            <i class="fa fa-glass fa-3x"></i>
+            <span ng-if="article.categorySearch"><b>{{article.type}}</b></span>
+            <span ng-if="!article.categorySearch">
+              <span ng-if="article.name2"><b>{{article.name2}}</b>, {{article.type}}</span>
+              <span ng-if="!article.name2"><b>{{article.name}}</b>, {{article.type}}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="span6">
+        <span ng-if="!recipes">
+          <h2>Och vad kan du mixa?</h2>
+          <p>Skriv in vad du har hemma och få förslag på vad du kan mixa</p>
+        </span>
+        <span ng-if="recipes">
+          <h2>Du har ingredienser som ingår i {{recipes.length}} olika drinkar!</h2>
+        </span>
+
+        <div class="recipe row-fluid" ng-repeat="recipe in recipes" ng-click="getRecipe(recipe)">
+          <h4>{{recipe.name}}</h4>
+          <span 
+            class="tag ingredient" 
+            ng-repeat="(ingredient, isHave) in getIngredientsByRecipe(recipe) track by $index"
+            ng-class="{have : isHave}">
+            {{ingredient}}
+          </span>
+        </div>
+      </div>
+
+  </div>
+</div>
+</body>
+</html>

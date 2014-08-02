@@ -30,6 +30,18 @@ def search_articles(article=None):
 
   return jsonify(result=result)
 
+@app.route('/ingredients/<ingredient>')
+def search_ingredients(ingredient=None):
+  result = []
+  for ingredient in db.ingredients_by_name(ingredient):
+    result.append(dict(
+      name=ingredient.name, 
+      name2=ingredient.name2,
+      type=ingredient.type)
+    )
+
+  return jsonify(result=result)
+
 @app.route('/recipesbyingredients', methods=['GET'])
 def search_recipes_by_ingredient():
   recipes = {}

@@ -62,6 +62,11 @@ def recipe_items_by_ingredient_type(type):
   return session.query(RecipeItem).filter(
     (func.lower(RecipeItem.name) == func.lower(type))).all()
 
+def ingredients_by_name(string):
+  return session.query(Ingredient).filter(
+    Ingredient.name.ilike('%' + string + '%') |
+    Ingredient.name2.ilike('%' + string + '%')).all()
+
 def ingredients_by_exact_name2(string):
   return session.query(Ingredient).filter(Ingredient.name2.ilike(string)).all()
 
