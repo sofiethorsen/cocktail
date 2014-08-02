@@ -12,7 +12,11 @@ import utilities
 from flask import Flask, jsonify, request, send_file
 from model import Article, Ingredient, Recipe, RecipeItem
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='', static_folder='../static')
+
+@app.route('/')
+def root():
+  return send_file('../templates/index.html')
 
 @app.route('/articles/<article>')
 def search_articles(article=None):
