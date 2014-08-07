@@ -37,7 +37,7 @@ setup(
     url='http://github.com/sofiethorsen/cocktail/',
     author='Sofie Thorsen',
     tests_require=['pytest'],
-    install_requires=[],
+    install_requires=['flask', 'sqlalchemy',],
     cmdclass={'test': PyTest},
     author_email='sofie.l.thorsen@gmail.com',
     description='Drink suggestions based on what you have at home',
