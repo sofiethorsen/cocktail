@@ -17,19 +17,6 @@ def root():
     return send_file('../templates/index.html')
 
 
-@app.route('/articles/<article>')
-def search_articles(article=None):
-    result = []
-    for article in db.article_by_name(article):
-        result.append(dict(
-            name=article.name,
-            name2=article.name2,
-            type=article.type)
-        )
-
-    return jsonify(result=result)
-
-
 @app.route('/ingredients/<ingredient>')
 def search_ingredients(ingredient=None):
     result = []
