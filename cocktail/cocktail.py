@@ -6,7 +6,7 @@ __author__ = 'thorsen'
 from flask import Flask, jsonify, request, send_file
 
 import db
-import utilities
+import utilities, categories
 
 
 app = Flask(__name__, static_url_path='', static_folder='../static')

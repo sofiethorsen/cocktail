@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from __future__ import unicode_literals
+
 # TODO would be nice to not have this list present in two places
 all_categories = {
     1: unicode(u'Alkoholfritt'),
@@ -55,6 +57,69 @@ all_categories = {
     50: unicode(u'Övrigt starkvin'),
 }
 
+specific_type_mappings = {
+    'alkoholfritt': all_categories[1],
+    'aniskryddad sprit': all_categories[2],
+    'aperitif': all_categories[3],
+    'armagnac': all_categories[4],
+    'bitter': all_categories[5],
+    'blanddrycker': all_categories[6],
+    'brandy': all_categories[7],
+    'vinsprit': all_categories[8],
+    'calvados': all_categories[9],
+    'cider': all_categories[10],
+    'cognac': all_categories[11],
+    'konjak': all_categories[11],
+    'drinkar och cocktails': all_categories[12],
+    'fruktvin': all_categories[13],
+    'genever': all_categories[14],
+    'gin': all_categories[15],
+    'glögg och glühwein': all_categories[16],
+    'grappa': all_categories[17],
+    'kryddad sprit': all_categories[18],
+    'kaffelikör': all_categories[19],
+    'chokladlikör': all_categories[19],
+    'bärlikör': all_categories[20],
+    'fruktlikör': all_categories[20],
+    'gräddlikör': all_categories[21],
+    'ägglikör': all_categories[21],
+    'kryddlikör': all_categories[22],
+    'örtlikör': all_categories[22],
+    'likör': all_categories[23],
+    'madeira': all_categories[24],
+    'mjöd': all_categories[25],
+    'montilla': all_categories[26],
+    'mousserande vin': all_categories[27],
+    'champagne': all_categories[27],
+    'vodka': all_categories[28],
+    'portvin': all_categories[29],
+    'punsch': all_categories[30],
+    'ljus rom': all_categories[31],
+    'mörk rom': all_categories[32],
+    'rom': all_categories[33],
+    'rosé': all_categories[34],
+    'rosévin': all_categories[34],
+    'vin': all_categories[35],
+    'rött vin': all_categories[35],
+    'sake': all_categories[36],
+    'sherry': all_categories[37],
+    'smaksatt sprit': all_categories[38],
+    'smaksatt vin': all_categories[39],
+    'sprit av frukt': all_categories[40],
+    'tequila': all_categories[41],
+    'mezcal': all_categories[41],
+    'vermouth': all_categories[42],
+    'vin av flera typer': all_categories[43],
+    'vitt vin': all_categories[44],
+    'whisky': all_categories[45],
+    'whiskey': all_categories[45],
+    'öl': all_categories[46],
+    'ljus öl': all_categories[47],
+    'mörk öl': all_categories[48],
+    'övrig sprit': all_categories[49],
+    'övrigt starkvin': all_categories[50],
+}
+
 case_insensitive_categories = {}
 
 for key, value in all_categories.items():
@@ -62,4 +127,4 @@ for key, value in all_categories.items():
     words = [word.lower() for word in words]
     case_insensitive_categories[key] = words
 
-all_types = [case_insensitive_categories[key] for key in case_insensitive_categories]
+all_types = specific_type_mappings.keys()

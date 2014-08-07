@@ -3,11 +3,10 @@
 
 import unittest
 
-from cocktail import parser
+from cocktail import parser, utilities, categories
 
 
 class TestParser(unittest.TestCase):
-
     def test_parse_one_ingredient(self):
         ingredients = parser.parse_ingredients_from_file('tests/testfiles/ingredient1.txt')
 
@@ -48,6 +47,18 @@ class TestParser(unittest.TestCase):
         desc = unicode(desc.decode('utf-8'))
 
         self.assertEqual(desc, recipes[0].description)
+
+
+class TestUtilities(unittest.TestCase):
+    def test_is_type_invalid(self):
+        is_type, search_term = utilities.is_type('vodk')
+
+        self.assertEqual((False, 'vodk'), (is_type, search_term))
+
+    def test_is_type_valid(self):
+        for alcohol_type in categories.all_types:
+            self.assertEqual((True, alcohol_type), utilities.is_type(alcohol_type))
+
 
 
 
