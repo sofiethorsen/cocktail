@@ -1,12 +1,9 @@
-import parsers
+import parser
 import db
 from model import Ingredient, Recipe, RecipeItem
 
-recipe_parser = parsers.RecipeParser()
-ingredient_parser = parsers.IngredientParser()
-
-recipes = recipe_parser.parse_from_file('../resources/recipes.txt')
-ingredients = ingredient_parser.parse_from_file('../resources/ingredients.txt')
+recipes = parser.parse_recipes_from_file('../resources/recipes.txt')
+ingredients = parser.parse_ingredients_from_file('../resources/ingredients.txt')
 
 count = 0
 for recipe in recipes:

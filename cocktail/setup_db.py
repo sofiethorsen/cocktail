@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from cocktail.parser import parse_ingredients_from_file, parse_recipes_from_file
 
-from parsers import IngredientParser, RecipeParser
 from model import Ingredient, Recipe, RecipeItem
 from utilities import encode
 
 import db
 
-ingredients = IngredientParser().parse_from_file('../resources/ingredients.txt')
-recipes = RecipeParser().parse_from_file('../resources/recipes.txt')
+ingredients = parse_ingredients_from_file('../resources/ingredients.txt')
+recipes = parse_recipes_from_file('../resources/recipes.txt')
 
 # add all ingredients to db
 for ingredient in ingredients:
