@@ -45,6 +45,13 @@ def articles_by_type(type):
         (func.lower(Article.type) == func.lower(type))).all()
 
 
+def article_by_name_or_type(string):
+    return session.query(Article).filter(
+        Article.name.ilike('%' + string + '%') |
+        Article.name2.ilike('%' + string + '%') |
+        Article.type.ilike('%' + string + '%')).all()
+
+
 def recipe_by_recipe_item(recipe_item):
     return session.query(Recipe).filter_by(_id=recipe_item.recipe_id).all()
 
@@ -77,6 +84,7 @@ def recipe_items_by_ingredient_type(type):
 
 
 def ingredients_by_name(string):
+    print string
     return session.query(Ingredient).filter(
         Ingredient.name.ilike('%' + string + '%') |
         Ingredient.name2.ilike('%' + string + '%')).all()
@@ -96,6 +104,16 @@ def ingredients_by_exact_names(string):
         return name2_results
     else:
         return ingredients_by_exact_name(string)
+
+
+def ingredients_by_type(string):
+    result = []
+
+    matches = [string in alcohol_type for alcohol_type in categories.all_types]
+
+    for entry in matches:
+        result.append(session.query(Ingredient).filter_by(type=entry).first())
+    return result
 
 
 def distinct_types(input_types):

@@ -18,14 +18,23 @@ def root():
 
 
 @app.route('/ingredients/<ingredient>')
-def search_ingredients(ingredient=None):
+def search_ingredient(ingredient=None):
     result = []
-    for ingredient in db.ingredients_by_name(ingredient):
-        result.append(dict(
-            name=ingredient.name,
-            name2=ingredient.name2,
-            type=ingredient.type)
-        )
+    was_category, search_term = utilities.is_type(ingredient)
+    if was_category:
+        for ingredient in db.ingredients_by_type(search_term):
+            result.append(dict(
+                name=ingredient.name,
+                name2=ingredient.name2,
+                type=ingredient.type,
+                categorySearch=was_category))
+    else:
+        for ingredient in db.ingredients_by_name(ingredient):
+            result.append(dict(
+                name=ingredient.name,
+                name2=ingredient.name2,
+                type=ingredient.type,
+                categorySearch=was_category))
 
     return jsonify(result=result)
 
