@@ -84,7 +84,6 @@ def recipe_items_by_ingredient_type(type):
 
 
 def ingredients_by_name(string):
-    print string
     return session.query(Ingredient).filter(
         Ingredient.name.ilike('%' + string + '%') |
         Ingredient.name2.ilike('%' + string + '%')).all()
@@ -108,11 +107,10 @@ def ingredients_by_exact_names(string):
 
 def ingredients_by_type(string):
     result = []
-
-    matches = [string in alcohol_type for alcohol_type in categories.all_types]
-
+    matches = [alcohol_type for alcohol_type in categories.all_types if string in alcohol_type]
     for entry in matches:
-        result.append(session.query(Ingredient).filter_by(type=entry).first())
+        search_type = categories.specific_type_mappings[entry]
+        result.append(session.query(Ingredient).filter_by(type=search_type).first())
     return result
 
 
