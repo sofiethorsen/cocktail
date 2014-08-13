@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('cocktail.controllers', [])
-  .controller('SerachCtrl', ['$scope', 'Ingredients', ($scope, Ingredients) ->
+  .controller('SearchCtrl', ['$scope', 'Ingredients', ($scope, Ingredients) ->
       $scope.ingredients = []
 
       searchIngredients = (searchString) ->
