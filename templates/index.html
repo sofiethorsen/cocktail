@@ -79,12 +79,18 @@
         </span>
 
         <div class="recipe row-fluid" ng-repeat="recipe in recipes" ng-click="getRecipe(recipe)">
-          <h4>{{recipe.name}}</h4>
+          <h4>{{recipe[0]}}</h4>
           <span 
             class="tag ingredient" 
-            ng-repeat="(ingredient, isHave) in getIngredientsByRecipe(recipe) track by $index"
-            ng-class="{have : isHave}">
-            {{ingredient}}
+            ng-class="{have : true}"
+            ng-repeat="match in recipe[1].matches track by $index">
+            {{match}}
+          </span>
+          <span 
+            class="tag ingredient" 
+            ng-class="{have : false}"
+            ng-repeat="match in recipe[1].nonMatches track by $index">
+            {{match}}
           </span>
         </div>
       </div>

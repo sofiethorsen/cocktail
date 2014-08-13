@@ -2,9 +2,11 @@
 (function() {
   'use strict';
   angular.module('cocktail.controllers', []).controller('SearchCtrl', [
-    '$scope', 'Ingredients', function($scope, Ingredients) {
-      var searchIngredients;
+    '$scope', 'Ingredients', 'Recipes', function($scope, Ingredients, Recipes) {
+      var searchIngredients, searchRecipes;
       $scope.ingredients = [];
+      $scope.currentRecipe = {};
+      $scope.currentRecipe['active'] = false;
       searchIngredients = function(searchString) {
         return Ingredients.search(searchString, function(err, ingredients) {
           return $scope.articles = ingredients;
@@ -14,15 +16,21 @@
         var index;
         index = $scope.ingredients.indexOf(ingredient);
         if (index > -1) {
-          return $scope.ingredients.splice(index, 1);
+          $scope.ingredients.splice(index, 1);
+        }
+        if ($scope.ingredients.length > 0) {
+          return searchRecipes($scope.ingredients);
+        } else {
+          return $scope.recipes = null;
         }
       };
       $scope.addIngredient = function(ingredient) {
         $scope.ingredients.push(ingredient);
         $scope.ingredient = null;
-        return $scope.articles = [];
+        $scope.articles = [];
+        return searchRecipes($scope.ingredients);
       };
-      return $scope.onChange = function() {
+      $scope.onChange = function() {
         if ($scope.ingredient === null ||  $scope.ingredient === void 0) {
           return;
         }
@@ -31,6 +39,11 @@
         } else {
           return $scope.articles = [];
         }
+      };
+      return searchRecipes = function(ingredients) {
+        return Recipes.search(ingredients, function(error, recipes) {
+          return $scope.recipes = recipes;
+        });
       };
     }
   ]);

@@ -24,6 +24,29 @@
         return this;
       };
     }
+  ]).service('Recipes', [
+    'ApiService', function(ApiService) {
+      var getSearchWords;
+      this.search = function(ingredients, callback) {
+        var searchWords;
+        searchWords = getSearchWords(ingredients);
+        return ApiService.searchForRecipes(searchWords, callback);
+      };
+      getSearchWords = function(ingredients) {
+        var ingredient, name, searchWords, _i, _len;
+        searchWords = [];
+        for (_i = 0, _len = ingredients.length; _i < _len; _i++) {
+          ingredient = ingredients[_i];
+          if (!ingredient.categorySearch) {
+            name = ingredient.name2 ? ingredient.name2 : ingredient.name;
+            searchWords.push(name);
+          }
+          searchWords.push.apply(searchWords, ingredient.type.split(", "));
+        }
+        return searchWords;
+      };
+      return this;
+    }
   ]).service('ApiService', [
     '$http', function($http) {
       var GET, POST, baseUrl;
@@ -61,6 +84,18 @@
         var url;
         url = baseUrl + 'ingredients/' + searchString;
         return GET(url, null, callback);
+      };
+      this.searchForRecipes = function(words, callback) {
+        var url;
+        url = baseUrl + 'recipesbyingredients?key=' + words.join(",");
+        return GET(url, null, function(error, data) {
+          var recipes;
+          if (error !== void 0 && error !== null) {
+            return callback(error, null);
+          }
+          recipes = data.result[0].recipes;
+          return callback(error, recipes);
+        });
       };
       return this;
     }

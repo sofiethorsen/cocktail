@@ -19,6 +19,24 @@ angular.module('cocktail.services', [])
 
       return this
   ])
+  .service('Recipes', ['ApiService', (ApiService) ->
+    this.search = (ingredients, callback) ->
+      searchWords = getSearchWords(ingredients)
+      ApiService.searchForRecipes(searchWords, callback)
+
+    getSearchWords = (ingredients) ->
+      searchWords = []
+
+      for ingredient in ingredients
+        if !ingredient.categorySearch
+          name = if ingredient.name2 then ingredient.name2 else ingredient.name
+          searchWords.push name
+        searchWords.push ingredient.type.split(", ")...
+
+      return searchWords
+
+    return this
+  ])
   .service('ApiService', ['$http', ($http) ->
     baseUrl = '/'
 
@@ -51,6 +69,16 @@ angular.module('cocktail.services', [])
     this.searchForIngredients = (searchString, callback) ->
       url = baseUrl + 'ingredients/' + searchString
       return GET(url, null, callback)
+
+    this.searchForRecipes = (words, callback) ->
+      url = baseUrl + 'recipesbyingredients?key=' + words.join(",")
+
+      return GET(url, null, (error, data) ->
+        if error != undefined && error != null 
+          return callback(error, null)
+          
+        recipes = data.result[0].recipes
+        return callback(error, recipes))
 
     return this
   ])

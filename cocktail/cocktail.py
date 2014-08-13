@@ -43,7 +43,7 @@ def search_ingredient(ingredient=None):
 def search_recipes_by_ingredient():
     recipes = {}
     result = []
-    ingredients = request.args.get('key', '').split(',')
+    ingredients = [ingredient.lower() for ingredient in request.args.get('key', '').split(',')]
 
     type_ingredients, name_ingredients = utilities.split_on_types(ingredients)
 
