@@ -1,5 +1,14 @@
 'use strict'
 
+specialCases = {
+      'Rom, Ljus rom' : 'ljus rom',
+      'Rom, Mörk rom' : 'mörk rom',
+      'Vin, Rött vin' : 'rött vin',
+      'Vin, Vitt vin' : 'vitt vin',
+      'Öl, Ljus öl' : 'ljus öl',
+      'Öl, Mörk öl' : 'mörk öl'
+}
+
 angular.module('cocktail.services', [])
   .service('Ingredients', ['ApiService', (ApiService) -> 
     this.search = (searchString, callback) ->
@@ -31,7 +40,11 @@ angular.module('cocktail.services', [])
         if !ingredient.categorySearch
           name = if ingredient.name2 then ingredient.name2 else ingredient.name
           searchWords.push name
-        searchWords.push ingredient.type.split(", ")...
+
+        if specialCases.hasOwnProperty(ingredient.type)
+          searchWords.push specialCases[ingredient.type]
+        else 
+          searchWords.push ingredient.type.split(", ")...
 
       return searchWords
 
