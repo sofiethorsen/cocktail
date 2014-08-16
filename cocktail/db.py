@@ -112,7 +112,7 @@ def ingredients_by_exact_names(string):
         return ingredients_by_exact_name(string)
 
 
-def ingredients_by_type(string):
+def ingredient_by_type(string):
     result = []
     matches = [alcohol_type for alcohol_type in categories.all_types if string in alcohol_type]
     for entry in matches:

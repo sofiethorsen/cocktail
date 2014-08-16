@@ -15,6 +15,17 @@ def is_type(string):
     return False, string
 
 
+def is_substring_of_type(string):
+    matches = []
+    for alcohol_type in categories.all_types:
+        if string in alcohol_type:
+            matches.append(alcohol_type)
+    if len(matches) > 0:
+        matches.sort(key=len)
+        return True, matches
+    return False, string
+
+
 def split_on_types(ingredients):
     type_ingredients = set()
     name_ingredients = set()
