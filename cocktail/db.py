@@ -90,8 +90,10 @@ def recipe_items_by_ingredient_type(type):
 
 def ingredients_by_name(string):
     return session.query(Ingredient).filter(
-        Ingredient.name.ilike('%' + string + '%') |
-        Ingredient.name2.ilike('%' + string + '%')).all()
+        Ingredient.name.ilike(string + '%') |
+        Ingredient.name.ilike('% ' + string + '%') |
+        Ingredient.name2.ilike(string + '%') |
+        Ingredient.name2.ilike('% ' + string + '%')).all()
 
 
 def ingredients_by_exact_name2(string):
