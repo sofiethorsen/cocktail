@@ -52,8 +52,6 @@
             name = ingredient.name2 ? ingredient.name2 : ingredient.name;
             searchWords.push(name);
           }
-          console.log(ingredient.type);
-          console.log(specialCases);
           if (specialCases.hasOwnProperty(ingredient.type)) {
             searchWords.push(specialCases[ingredient.type]);
           } else {
