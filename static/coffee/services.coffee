@@ -33,6 +33,9 @@ angular.module('cocktail.services', [])
       searchWords = getSearchWords(ingredients)
       ApiService.searchForRecipes(searchWords, callback)
 
+    this.getRecipeInfo = (recipe, callback) ->
+      ApiService.searchForRecipe(recipe, callback)
+
     getSearchWords = (ingredients) ->
       searchWords = []
 
@@ -53,40 +56,26 @@ angular.module('cocktail.services', [])
   .service('ApiService', ['$http', ($http) ->
     baseUrl = '/'
 
-    GET = (url, config, callback) ->
-      if config == undefined || config == null
-        config = {}
-      if config.params == undefined || config.params == null
-        config.params = {}
-
-      $http.get(url, config).
+    GET = (url, callback) ->
+      $http.get(url).
         success( (data) -> 
           callback(null, data)).
         error( (err) ->
-          console.error("Failed request to ", config, err)
-          callback(err, null))
-
-    POST = (url, content, callback, config) ->
-      if config == undefined || config == null
-        config = {}
-      if config.params == undefined || config.params == null
-        config.params = {}
-      $http.post(url, content, config).
-        success( (data) ->
-          callback(null, data)).
-        error( (err) ->
-          console.log(url, config)
-          console.error("Failed request to ", config, err)
+          console.error("Failed request to ", err)
           callback(err, null))
 
     this.searchForIngredients = (searchString, callback) ->
       url = baseUrl + 'ingredients/' + searchString
-      return GET(url, null, callback)
+      return GET(url, callback)
+
+    this.searchForRecipe = (name, callback) ->
+      url = baseUrl + 'recipe/' + name
+      return GET(url, callback)
 
     this.searchForRecipes = (words, callback) ->
       url = baseUrl + 'recipesbyingredients?key=' + words.join(",")
 
-      return GET(url, null, (error, data) ->
+      return GET(url, (error, data) ->
         if error != undefined && error != null 
           return callback(error, null)
           

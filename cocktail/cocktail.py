@@ -17,6 +17,24 @@ def root():
     return send_file('../templates/index.html')
 
 
+@app.route('/recipe/<recipe>')
+def search_recipe(recipe=None):
+    recipe = db.recipe_by_name(recipe)
+    ingredients = {}
+
+    for ingredient in db.recipe_item_by_recipe(recipe):
+        if ingredient.amount != 'N/A':
+            ingredients[ingredient.name] = ingredient.amount
+        else:
+            ingredients[ingredient.name] = None
+
+    return jsonify(result=(dict(
+        name=recipe.name,
+        description=recipe.description,
+        ingredients=ingredients,
+    )))
+
+
 @app.route('/ingredients/<ingredient>')
 def search_ingredient(ingredient=None):
     result = []
@@ -86,7 +104,6 @@ def add_ingredient(recipes_dict, recipe, recipe_item):
         all_ingredients = set(item.name for item in db.recipe_item_by_recipe(recipe))
 
         recipes_dict[recipe.name]['numberOfIngredients'] = len(all_ingredients)
-        recipes_dict[recipe.name]['description'] = recipe.description
         recipes_dict[recipe.name]['matches'] = ingredients
         recipes_dict[recipe.name]['nonMatches'] = all_ingredients
     else:

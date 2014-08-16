@@ -78,6 +78,11 @@ def articles_by_name_or_type(name):
         Article.type.ilike('%' + name + '%')).all()
 
 
+def recipe_by_name(name):
+    return session.query(Recipe).filter(
+        (func.lower(Recipe.name) == func.lower(name))).first()
+
+
 def recipe_items_by_ingredient_type(type):
     return session.query(RecipeItem).filter(
         (func.lower(RecipeItem.name) == func.lower(type))).all()

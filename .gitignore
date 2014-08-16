@@ -44,5 +44,7 @@ nosetests.xml
 venv/
 
 # Articles file
-
 articles.txt
+
+# JavaScript generated files
+*.js
