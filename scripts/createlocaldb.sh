@@ -1,8 +1,8 @@
 #!/bin/bash
 
 XML_FILE="http://www.systembolaget.se/Assortment.aspx?Format=Xml"
-DATABASE="drinkapp"
-USER="drinkappuser"
+DATABASE="cocktail"
+USER="cocktailuser"
 
 # remove the database if it already exists
 dropdb $DATABASE

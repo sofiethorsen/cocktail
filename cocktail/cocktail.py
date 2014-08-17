@@ -10,7 +10,7 @@ import utilities
 
 
 app = Flask(__name__, static_url_path='', static_folder='../static')
-
+app.config.from_pyfile('config.py')
 
 @app.route('/')
 def root():

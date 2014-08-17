@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import config
+
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, func
 from model import Article, Recipe, RecipeItem, Ingredient
 
 import categories
 
-DB_URI = 'postgresql://drinkappuser@localhost/drinkapp'
-
-engine = create_engine(DB_URI, encoding='utf-8')
+engine = create_engine(config.DB_URI, encoding='utf-8')
 session = sessionmaker(bind=engine)()
 
 
