@@ -46,13 +46,11 @@ class RecipeItem(Base):
     recipe_id = Column(Integer)
     name = Column(Unicode)
     amount = Column(Unicode)
-    is_type = Column(Boolean)
 
-    def __init__(self, recipe_id, name, amount, is_type):
+    def __init__(self, recipe_id, name, amount):
         self.recipe_id = recipe_id
         self.name = name
         self.amount = amount
-        self.is_type = is_type
 
 
 class RecipeObject(object):

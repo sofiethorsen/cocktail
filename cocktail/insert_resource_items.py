@@ -16,11 +16,7 @@ for recipe in recipes:
         if amount:
             amount_descriptor = (amount + ' ' + metric)
 
-        is_type = True
-        if db.articles_by_exact_name(substance):
-            is_type = False
-
-        db.add_model(RecipeItem(recipe_entry._id, substance, amount_descriptor, is_type))
+        db.add_model(RecipeItem(recipe_entry._id, substance, amount_descriptor))
 
 print 'Added ' + str(count) + ' recipes'
 
