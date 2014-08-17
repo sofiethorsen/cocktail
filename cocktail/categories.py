@@ -120,11 +120,4 @@ specific_type_mappings = {
     'övrigt starkvin': all_categories[50],
 }
 
-case_insensitive_categories = {}
-
-for key, value in all_categories.items():
-    words = value.split(', ')
-    words = [word.lower() for word in words]
-    case_insensitive_categories[key] = words
-
 all_types = specific_type_mappings.keys()

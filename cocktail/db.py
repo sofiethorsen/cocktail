@@ -121,16 +121,16 @@ def ingredients_by_type(string):
     return result
 
 
-def distinct_types(input_types):
+def distinct_types(input_ingredients):
     result = set()
-    types = set()
+    alcohol_types = set()
 
-    for word in input_types:
-        for key, values in categories.case_insensitive_categories.items():
-            if word.lower() in values:
-                types.add(categories.all_categories[key])
+    for ingredient in input_ingredients:
+        for alchohol_type, alcohol_type_mapping in categories.specific_type_mappings.items():
+            if ingredient.lower() in alchohol_type:
+                alcohol_types.add(alcohol_type_mapping)
 
-    for type in types:
+    for type in alcohol_types:
         descriptions = type.split(', ')
         if len(descriptions) > 1:
             for desc in descriptions:
