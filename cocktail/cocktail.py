@@ -20,13 +20,7 @@ def root():
 @app.route('/recipe/<recipe>')
 def search_recipe(recipe=None):
     recipe = db.recipe_by_name(recipe)
-    ingredients = {}
-
-    for ingredient in db.recipe_item_by_recipe(recipe):
-        if ingredient.amount != 'N/A':
-            ingredients[ingredient.name] = ingredient.amount
-        else:
-            ingredients[ingredient.name] = None
+    ingredients = _ingredients_dict_from_list(db.recipe_item_by_recipe(recipe))
 
     return jsonify(result=(dict(
         name=recipe.name,
@@ -35,39 +29,43 @@ def search_recipe(recipe=None):
     )))
 
 
+def _ingredients_dict_from_list(ingredients_list):
+    ingredients = {}
+    for ingredient in ingredients_list:
+        if ingredient.amount:
+            ingredients[ingredient.name] = ingredient.amount
+        else:
+            ingredients[ingredient.name] = None
+    return ingredients
+
+
 @app.route('/ingredients/<ingredient>')
 def search_ingredient(ingredient=None):
     result = []
-    was_type, search_term = utilities.is_type(ingredient)
+
+    was_type, _ = utilities.is_type(ingredient)
     if was_type:
-        for ingredient in db.ingredient_by_type(search_term):
-            if ingredient:
-                result.append(dict(
-                    name=ingredient.name,
-                    name2=ingredient.name2,
-                    type=ingredient.type,
-                    categorySearch=was_type))
+        for ingredient in db.ingredients_by_type(ingredient):
+            _append_to_result_list(ingredient, result, was_type=True)
     else:
         was_substring_of_type, types = utilities.is_substring_of_type(ingredient)
         if was_substring_of_type:
             for match in types:
-                entry = db.ingredient_by_type(match)[0]
-                if entry:
-                    result.append(dict(
-                        name=entry.name,
-                        name2=entry.name2,
-                        type=entry.type,
-                        categorySearch=was_substring_of_type
-                    ))
+                entry = db.ingredients_by_type(match)[0]
+                _append_to_result_list(entry, result, was_type=True)
         for ingredient in db.ingredients_by_name(ingredient):
-            if ingredient:
-                result.append(dict(
-                    name=ingredient.name,
-                    name2=ingredient.name2,
-                    type=ingredient.type,
-                    categorySearch=was_type))
+            _append_to_result_list(ingredient, result)
 
     return jsonify(result=result)
+
+
+def _append_to_result_list(ingredient, result, was_type=False):
+    if ingredient:
+        result.append(dict(
+            name=ingredient.name,
+            name2=ingredient.name2,
+            type=ingredient.type,
+            categorySearch=was_type))
 
 
 @app.route('/recipesbyingredients', methods=['GET'])
