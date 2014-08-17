@@ -47,4 +47,4 @@ venv/
 articles.txt
 
 # JavaScript generated files
-*.js
+#*.js
