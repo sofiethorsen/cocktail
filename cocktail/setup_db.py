@@ -15,7 +15,7 @@ for ingredient in ingredients:
     Ingredient(ingredient, None, ingredient)
     db.add_model(Ingredient(ingredient, None, ingredient))
 
-# add all recipes and the recipe items mapped to thems
+# add all recipes and the recipe items mapped to them
 for recipe in recipes:
     recipe_entry = Recipe(recipe.name, recipe.description)
     db.add_model(recipe_entry)
