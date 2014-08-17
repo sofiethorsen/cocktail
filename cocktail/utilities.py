@@ -6,12 +6,9 @@ def encode(string):
 
 
 def is_type(string):
-    matches = []
     for alcohol_type in categories.all_types:
         if string == alcohol_type:
-            matches.append(alcohol_type)
-    if len(matches) > 0:
-        return True, min(matches, key=len)
+            return True, alcohol_type
     return False, string
 
 
