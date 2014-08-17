@@ -20,7 +20,7 @@ def is_substring_of_type(string):
     if len(matches) > 0:
         matches.sort(key=len)
         return True, matches
-    return False, string
+    return False, matches
 
 
 def split_on_types(ingredients):
