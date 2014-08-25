@@ -17,10 +17,10 @@ angular.module('cocktail.services', [])
         seen = {}
 
         for ingredient in response.result
-          if ingredient.name2 && !seen[ingredient.name2]
+          if ingredient.name2 and not seen[ingredient.name2]
             seen[ingredient.name2] = true
             uniques.push(ingredient)
-          else if !seen[ingredient.name] && !seen[ingredient.name2]
+          else unless seen[ingredient.name] or seen[ingredient.name2]
             seen[ingredient.name] = true
             uniques.push(ingredient)
 
@@ -41,7 +41,7 @@ angular.module('cocktail.services', [])
 
       for ingredient in ingredients
         if !ingredient.categorySearch
-          name = if ingredient.name2 then ingredient.name2 else ingredient.name
+          name = ingredient.name2 or ingredient.name
           searchWords.push name
 
         if specialCases.hasOwnProperty(ingredient.type)

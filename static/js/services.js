@@ -25,7 +25,7 @@
             if (ingredient.name2 && !seen[ingredient.name2]) {
               seen[ingredient.name2] = true;
               uniques.push(ingredient);
-            } else if (!seen[ingredient.name] && !seen[ingredient.name2]) {
+            } else if (!(seen[ingredient.name] || seen[ingredient.name2])) {
               seen[ingredient.name] = true;
               uniques.push(ingredient);
             }
@@ -52,7 +52,7 @@
         for (_i = 0, _len = ingredients.length; _i < _len; _i++) {
           ingredient = ingredients[_i];
           if (!ingredient.categorySearch) {
-            name = ingredient.name2 ? ingredient.name2 : ingredient.name;
+            name = ingredient.name2 || ingredient.name;
             searchWords.push(name);
           }
           if (specialCases.hasOwnProperty(ingredient.type)) {
