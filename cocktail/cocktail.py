@@ -7,6 +7,7 @@ from flask import Flask, jsonify, request, send_file
 
 import db
 import utilities
+import config
 
 
 app = Flask(__name__, static_url_path='', static_folder='../static')
@@ -122,4 +123,4 @@ def add_ingredient(recipes_dict, recipe, recipe_item):
 
 
 if __name__ == "__main__":
-    app.run(port=5000, host='0.0.0.0', debug=True)
+    app.run(port=config.PORT, host=config.HOST, debug=config.DEBUG)
