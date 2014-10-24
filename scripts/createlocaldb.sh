@@ -1,6 +1,5 @@
 #!/bin/bash
 
-XML_FILE="http://www.systembolaget.se/Assortment.aspx?Format=Xml"
 DATABASE="cocktail"
 USER="cocktailuser"
 
@@ -23,11 +22,7 @@ echo "Creating tables..."
 psql -d $DATABASE -f ../cocktail/sql/schema.sql
 
 echo "Inserting systembolaget articles..."
-
 # insert systembolaget articles
-#curl $XML_FILE | python systemet_to_sql.py | psql -d $DATABASE -f - > /dev/null 2>&1
-
-# local
 python systemet_to_sql.py < articles.txt | psql -d $DATABASE -f - > /dev/null 2>&1
 
 echo "Removing duplicate rows..."
