@@ -23,15 +23,17 @@ And stop it with:
 
     pg_ctl -D /usr/local/var/postgres stop -s -m fast
     
-You can then create the database with the create_db.sh script:
+You can then create the database by downloading the data from Systembolaget:
+
+    ./download_articles.sh
+    
+and then run the create_db.sh script:
 
     ./create_db.sh
 
 Running the application
 ==========
-Make sure the server is running and that you have compiled the CoffeeScript files to the target directory static/js
-
-Then just run: 
+Make sure the server is running and then just run: 
 
     python cocktail.py
 
