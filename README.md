@@ -1,6 +1,8 @@
 cocktail
 =======================
-Gives drink suggestions based on the ingredients you have at home.
+Running version can be found at: http://www.vadharduhemma.se/
+
+Gives drink suggestions based on the ingredients you have at home. 
 
 Installation
 ==========
