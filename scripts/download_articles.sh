@@ -1,5 +1,5 @@
 #!/bin/bash
-XML_FILE="http://www.systembolaget.se/Assortment.aspx?Format=Xml"
+XML_FILE="https://www.systembolaget.se/api/assortment/products/xml"
 
 # remove old file
 rm articles.txt
