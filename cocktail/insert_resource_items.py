@@ -8,7 +8,7 @@ ingredients = parser.parse_ingredients_from_file('../resources/ingredients.txt')
 count = 0
 for recipe in recipes:
     count += 1
-    recipe_entry = Recipe(recipe.name, recipe.recipe_id, recipe.description)
+    recipe_entry = Recipe(recipe.name, recipe.recipe_id, recipe.display_src, recipe.description)
     db.add_model(recipe_entry)
 
     for substance, amount, metric in recipe.ingredients:

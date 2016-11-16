@@ -33,12 +33,14 @@ class Recipe(Base):
     _id = Column(Integer, autoincrement=True, primary_key=True)
     name = Column(Unicode)
     recipe_id = Column(Unicode)
+    display_src = Column(Unicode)
     description = Column(Unicode)
 
-    def __init__(self, name, recipe_id, description):
+    def __init__(self, name, recipe_id, display_src, description):
         self.name = name
         self.recipe_id = recipe_id
         self.description = description
+        self.display_src = display_src
 
 
 class RecipeItem(Base):
@@ -56,11 +58,12 @@ class RecipeItem(Base):
 
 
 class RecipeObject(object):
-    def __init__(self, name, recipe_id, description, ingredients):
+    def __init__(self, name, recipe_id, display_src, description, ingredients):
         self.name = name
         self.description = description
         self.ingredients = ingredients
         self.recipe_id = recipe_id
+        self.display_src = display_src
 
     def __str__(self):
         ingredients = ''

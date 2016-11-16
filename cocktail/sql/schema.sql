@@ -5,6 +5,7 @@ CREATE TABLE articles(name TEXT,
 CREATE TABLE recipes(_id SERIAL PRIMARY KEY,
 					 name TEXT UNIQUE,
 					 recipe_id TEXT,
+					 display_src TEXT,
 					 description TEXT);
 
 CREATE TABLE recipe_items(_id SERIAL PRIMARY KEY,

@@ -74,6 +74,7 @@ def search_recipe(recipe=None):
         id=recipe.recipe_id,
         description=recipe.description,
         ingredients=ingredients,
+        display_src=recipe.display_src
     )))
 
 
