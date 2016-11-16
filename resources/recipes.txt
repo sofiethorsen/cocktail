@@ -1,4 +1,5 @@
 A Manda Shot
+a-manda-shot
 4
 4 cl Absolut Mandrin
 apelsin
@@ -7,6 +8,7 @@ socker
 Fyll ett shotglas med mandarinvodka. Doppa apelsinklyftan i grenadin och därefter i socker. Balansera apelsinklyftan elegant ovanpå glaset och servera.
 *
 A Night Of Passion
+a-night-of-passion
 4
 4 cl Bacardi Grand Melón
 2 cl Passoã
@@ -15,6 +17,7 @@ A Night Of Passion
 Fyll en shaker till hälften med is. Häll på rom och likör, lägg i fruktköttet från en halv passionsfrukt och skaka kraftigt tills shakern är iskall. Fyll ett highballglas med is och häll över drinken utan att sila. Garnera med en halv passionsfrukt.
 *
 Absolut Green Wedding
+absolut-green-wedding
 4
 2 cl Absolut Vodka
 1 cl melonlikör
@@ -23,6 +26,7 @@ champagne
 Häll likör och vodka i ett champagneglas och rör om. Fyll på med iskall champagne. Toppa med lime cordial och garnera gärna med ett cocktailbär.
 *
 Absolut Passion
+absolut-passion
 4
 3 cl Absolut Mandrin
 3 cl Passoã
@@ -31,12 +35,14 @@ fruktsoda
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll på med fruktsoda och rör om.
 *
 Adios Motherfucker
+adios-motherfucker
 2
 2 cl Kahlúa
 2 cl tequila
 Skikta ingredienserna, Kahlúa längst ner och tequila överst.
 *
 After Eight
+after-eight
 5
 2 cl vodka
 2 cl Kahlúa
@@ -46,6 +52,7 @@ After Eight
 Fyll en shaker till hälften med is. Häll i vodka, Kahlúa och mjölk och skaka tills shakern är iskall. Häll blandningen i ett highballglass och toppa med mintlikör.
 *
 Alaska Iced Tea
+alaska-iced-tea
 6
 2 cl vodka
 2 cl gin
@@ -56,6 +63,7 @@ fruktsoda
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll på med fruktsoda och rör om.
 *
 Alexander
+alexander
 3
 3 cl konjak
 3 cl Crème de Cacao
@@ -63,6 +71,7 @@ Alexander
 Mät upp samtliga ingredienser i en isfylld shaker och skaka kraftigt tills shakern är frostig. Sila ner i ett kylt cocktailglas. Strö över lite färskriven muskot eller riven choklad.
 *
 American Dream
+american-dream
 4
 3 cl bourbon
 3 cl Sourz Sour Apple
@@ -71,6 +80,7 @@ fruktsoda
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll på med fruktsoda och rör om. Garnera med en äppelskiva.
 *
 Americano
+americano
 5
 3 cl Campari
 3 cl söt röd vermouth 
@@ -80,6 +90,7 @@ sodavatten
 Häll ingredienserna i ett isfyllt whiskyglas och rör om. Om man vill kan man toppa med lite sodavatten. Lägg i en apelsinklyfta samt en liten citronskalsgirland.
 *
 Appletini
+appletini
 3
 2 cl vodka
 2 cl Sourz Sour Apple
@@ -87,6 +98,7 @@ Appletini
 Häll alla ingredienser, förutom citronsaften, i en shaker med is och skaka. Sila upp i ett cocktailglas. Skvätt lite citronsaft på ytan och garnera med en äppelskiva.
 *
 Apple Mojito
+apple-mojito
 7
 6 cl Bacardi Apple
 2 cl lime cordial
@@ -98,6 +110,7 @@ sodavatten
 Muddla lime, 6 st myntablad och sockerlag försiktigt i ett highballglas. Fyll glaset med krossad is, häll över Bacardi och rör om. Fyll upp med sodavatten och släpp ner några äppelbitar i glaset. Servera med sugrör.
 *
 B-52
+b-52
 3
 1 cl Kahlúa
 1 cl Baileys
@@ -105,6 +118,7 @@ B-52
 Skiktas. Börja med att hälla Kahlúa i ett snapsglas. Häll sedan Baileys försiktigt över baksidan på en tesked och ner i glaset, så att den lägger sig ovanpå Kahlúan. Gör sedan detsamma med Grand Marnier.
 *
 Baileys Coffee
+baileys-coffee
 3
 6 cl Baileys
 kaffe
@@ -112,12 +126,14 @@ grädde
 Häll Baileys i ett värmetåligt glas. Fyll på med hett kaffe och toppa med lätt vispad grädde.
 *
 Bellini
+bellini
 2
 4 cl persikopuré
 mousserande vin
 Häll puré i ett kylt champagneglas. Fyll upp med iskallt mousserande vin och rör om försiktigt.
 *
 Bazooka
+bazooka
 4
 1 cl vodka
 1 cl Curaçao Bleu
@@ -126,6 +142,7 @@ kakao
 Häll ingredienserna i en isfylld shaker. Skaka kraftigt och sila upp i ett shotglas. Pudra över lite kakao.
 *
 Between The Sheets
+between-the-sheets
 4
 3 cl konjak
 1.5 cl ljus rom
@@ -134,6 +151,7 @@ Between The Sheets
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Beverly Hills Iced Tea
+beverly-hills-iced-tea
 7
 2 cl vodka
 2 cl gin
@@ -145,6 +163,7 @@ mousserande vin
 Mät upp ingredienserna, utom triple sec, i ett isfyllt highballglas. Fyll på med mousserande vin och rör om försiktigt. Toppa med triple sec och garnera med något festligt.
 *
 Birdie Nam Nam
+birdie-nam-nam
 4
 1 cl vodka
 1 cl gin
@@ -153,12 +172,14 @@ Birdie Nam Nam
 Häll ingredienserna i en isfylld shaker. Skaka kraftigt och sila upp i ett shotglas.
 *
 Black Russian
+black-russian
 2
 2 cl vodka
 2 cl Kahlúa
 Häll ingredienserna i ett isfyllt whiskyglas och rör om.
 *
 Blackberry Beast
+blackberry-beast
 8
 4 cl absint
 2 cl björnbärslikör
@@ -171,6 +192,7 @@ champagne
 Muddla björnbär, 6 st myntablad och råsocker i en shaker. Fyll på med krossad is och häll ner absint, björnbärslikör, blåbärspuré och tranbärsjuice. Skaka rejält. Sila upp i ett highballglas och fyll på med krossad is. Fyll upp med champagne och rör om försiktigt. Garnera med blandade bär på sptt och stick ner några sugrör.
 *
 Blackberry Bellini
+blackberry-bellini
 3
 4 cl björnbärspuré
 2 cl björnbärslikör
@@ -178,6 +200,7 @@ mousserande vin
 Häll likör och puré i ett kylt champagneglas. Fyll upp med iskallt mousserande vin. Rör om försiktigt och garnera med björnbär på en drinkpinne.
 *
 Blackcurrant Caipirinha
+blackcurrant-caipirinha
 5
 4 cl cachaça
 2 cl svartvinbärslikör
@@ -187,6 +210,7 @@ svarta vinbär
 Muddla limeklyftor och sockerlag i ett glas. Fyll glaset med krossad is, häll på cachaça och likör. Rör om. Lägg i några svarta vinbär. Servera med sugrör och rörpinne.
 *
 Blame Reisen
+blame-reisen
 5
 1.5 cl grön Chartreuse
 3.5 cl Absolut Vodka
@@ -196,6 +220,7 @@ apelsinblomvatten
 Torrskaka först alla ingredienser, skaka sedan en gång till med is. Sila och häll upp i ett coupégas.
 *
 Bloody Mary
+bloody-mary
 8
 6 cl vodka
 1 krm salt
@@ -208,6 +233,7 @@ selleri
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll på med tomatjuice och rör om. Garnera med selleri.
 *
 Bloody Mary Cocktail
+bloody-mary-cocktail
 7
 4 cl vodka
 2 cl sherry
@@ -219,6 +245,7 @@ worcestershiresås
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas och garnera med cocktailtomat och kryddgönt.
 *
 Blow Job
+blow-job
 3
 2 cl Kahlúa
 4 cl Baileys
@@ -226,6 +253,7 @@ grädde
 Skikta genom att börja med att hälla Kahlúa i ett snapsglas. Häll sedan Baileys försiktigt över baksidan på en tesked och ner i glaset så att den lägger sig ovanpå Kahlúan. Gör sedan detsamma med grädden som skall vispas lätt. Ordningen är viktig, tyngst vätska i botten.
 *
 Blue Margarita
+blue-margarita
 6
 2 cl tequila
 1 cl Curaçao Bleu
@@ -236,6 +264,7 @@ salt
 Frosta kanten av ett margaritaglas med lime och salt och ställ på kylning. Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila upp i det kylda margaritaglaset.
 *
 Blueberry Sour
+blueberry-sour
 4
 3 cl Absolut Vanilia
 1 cl blåbärslikör
@@ -244,6 +273,7 @@ Blueberry Sour
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett isfyllt whiskyglas. Garnera med blåbär på ett spett.
 *
 Bramble
+bramble
 5
 4 cl gin
 2 cl citronjuice
@@ -253,6 +283,7 @@ krossad is
 Häll gin, citronjuice och sockerlag i ett old fashioned-glas fyllt med krossad is och rör om. Ringla sedan försiktigt över likören i en vacker marmorering. Garnera med björnbär och mynta.
 *
 Brandy Sour
+brandy-sour
 4
 4 cl konjak
 2 cl citronjuice
@@ -261,12 +292,14 @@ Brandy Sour
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt whiskyglas.
 *
 Brave Bull
+brave-bull
 2
 3 cl tequila
 1 cl Kahlúa
 Häll ingredienserna i ett isfyllt whiskyglas och rör om.
 *
 Bronx
+bronx
 4
 2 cl gin
 1 cl röd vermouth
@@ -275,6 +308,7 @@ Bronx
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Caipirinha
+caipirinha
 3
 4 cl cachaça
 1 st lime
@@ -282,6 +316,7 @@ Caipirinha
 Muddla limeklyftor och råsocker i ett whiskyglas. Fyll glaset med krossad is, häll på cachaça och rör om. Servera med sugrör och rörpinne.
 *
 Caipiroska
+caipiroska
 3
 4 cl vodka
 1 st lime
@@ -289,6 +324,7 @@ Caipiroska
 Muddla limeklyftor och råsocker i ett whiskyglas. Fyll glaset med krossad is, häll på vodka och rör om. Servera med sugrör och rörpinne.
 *
 Chapala
+chapala
 5
 4 cl tequila
 2 cl triple sec
@@ -298,6 +334,7 @@ Chapala
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett isfyllt whiskyglas eller mindre highballglas. Skär ett snitt i en hel chili och häng på kanten. 
 *
 Chili Martini
+chili-martini
 4
 6 cl vodka
 1 cl sockerlag
@@ -306,6 +343,7 @@ citrongräs
 Först måste man göra citrongräsvodka genom att banka citrongräset med en klubba och sedan stoppa ner dem i en vodkaflaska. Låt dem sedan dra i en vecka. Kärna ur och finhacka lite av chilin, ca 0.5 cm. Häll hacket och övriga ingredienser i en shaker med is och skaka kraftigt. Sila upp i ett kely cocktailglas och garnera med en bit chili på kanten.
 *
 Chill Out
+chill-out
 5
 3 cl ljus rom
 3 cl Cointreau
@@ -315,6 +353,7 @@ lime
 Häll rom och likör i ett isfyllt highballglas. Fyll upp med bitter lemon. Skär chili och lime i mindre bitar och lägg i drinken som dekoration.
 *
 Chocolate Martini
+chocolate-martini
 3
 2 cl vodka
 2 cl kakaolikör
@@ -322,6 +361,7 @@ Chocolate Martini
 Kyl cocktailglaset med iskuber. Pudra insidan av ett rörglas med kakaopulver. Häll över isen i cocktailglaset till rörglaset. Häll vodka och likör i rörglaset och rör om kraftigt med is. Sila upp i cocktailglas. Pudra lite kakao över och servera.
 *
 Cinnamon Liz
+cinnamon-liz
 4
 4 cl vodka
 2 cl Licor 43
@@ -330,6 +370,7 @@ kanel
 Strö kanel i bottem på ett highballglas. Lägg iskuber nästan ändå upp och häll ner likör och vodka. Fyll upp med äppeljuice och rör om. Garnera med en äppelskiva och servera med sugrör.
 *
 Coco Choco
+choco-choco
 6
 3 cl mörk rom
 3 cl Malibu
@@ -340,6 +381,7 @@ kokosflingor
 Fyll en shaker till hälften med is. Häll på alla ingredienser utom kokosflingor och skaka tills shakern är iskall. Servera utan is i ett whiskyglas. Garnera med kokosflingor eller färsk kokosnöt.
 *
 Collins
+collins
 5
 6 cl valfri bassprit
 3 cl citronjuice
@@ -349,6 +391,7 @@ citron
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll på med soda och rör om. Garnera med citron.
 *
 Cosmopolitan
+cosmopolitan
 4
 4 cl Absolut Citron
 2 cl Cointreau
@@ -357,6 +400,7 @@ Cosmopolitan
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Cuba libre
+cuba-libre
 3
 6 cl ljus rom
 cola
@@ -364,6 +408,7 @@ lime
 Mät upp rom i ett isfyllt highballglas. Pressa i lime och släpp ner några klyftor i glaset. Fyll upp med cola och rör om med en drinkpinne som du låter stå kvar. Servera med sugrör och en skiva lime.
 *
 Cuban Coffee
+cuban-coffee
 4
 4 cl mörk rom
 2 cl mörk kakaolikör
@@ -372,6 +417,7 @@ grädde
 Häll rom och likör i ett värmetåligt glas. Fyll på med kaffe och toppa med lätt vispad grädde.
 *
 Cucumber Cocktail
+cucumber-cocktail
 6
 4 cl gin
 3 cl citronjuice
@@ -382,6 +428,7 @@ krossad is
 Muddla gurkan och wasabin lätt med sockerlagen i en shaker. Fyll på med krossad is och häll ner gin och citron. Skaka rejält. Sila upp i ett cocktailglas.
 *
 Dirty Martini
+dirty-martini
 4
 3 cl gin
 1 cl Martini Extra Dry
@@ -390,6 +437,7 @@ gröna oliver
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas och garnera med oliver.
 *
 Dry Martini
+dry-martini
 3
 5 cl gin
 1 cl vermouth
@@ -397,6 +445,7 @@ oliver
 Häll gin och vermouth samt rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas och garnera med en eller flera oliver.
 *
 El Niño
+el-nino
 8
 2 cl Pisco
 2 cl limoncello
@@ -409,6 +458,7 @@ El Niño
 Muddla hälften av druvorna i en shaker. Fyll på med iskuber, häll ner övriga ingredienser och skaka rejält. Sila upp i ett isfyllt whiskyglas. Garnera med druvor.
 *
 Elite
+elite
 6
 3 cl bourbon
 1 cl hallonlikör
@@ -419,6 +469,7 @@ Elite
 Häll alla ingredienser i ett whiskyglas och rör om. Fyll på med krossad is.
 *
 Espresso Martini
+espresso-martini
 4
 5 cl vodka
 1 cl Kahlúa
@@ -427,6 +478,7 @@ Espresso Martini
 Mät upp samtliga ingredienser i en isfylld shaker och skaka kraftigt tills shakern är frostig. Sila ner i ett kylt cocktailglas. Garnera med kaffebönor.
 *
 Fast Bloody Mary
+fast-bloody-mary
 3
 4 cl Absolut Peppar
 1 st tomat
@@ -434,6 +486,7 @@ salt
 Häll pepparvodka i ett shotglas. Doppa en tomatklyfta i salt. Balansera tomatklyftan ovanpå glaset och servera.
 *
 Ferrari
+ferrari
 4
 3 cl vermouth
 1 cl amaretto
@@ -442,6 +495,7 @@ Ferrari
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett isfyllt whiskyglas. Vrid lite olja ur en bit citronskal som smakförstärkare och släpp sedan ner skalet i drinken som dekoration.
 *
 Fizz Pomegranate
+fizz-pomegranate
 4
 6 cl LO Smith granatäpple
 2 cl citronjuice
@@ -450,6 +504,7 @@ sodavatten
 Mät upp ingredienserna i en shaker och skaka kraftigt. Sila ner i ett isfyllt highballglas. Fyll upp med soda. Servera med sugrör.
 *
 Flädermargarita
+fladermargarita
 4
 3 cl tequila
 1 cl Cointreau
@@ -458,6 +513,7 @@ Flädermargarita
 Häll alla ingredienser, utom den koncentrerade saften, i en shaker med is. Skaka och sila upp i ett kylt cocktailglas. Tillsätt flädersaft och garnera med en citron eller limeklyfta.
 *
 French Coffee
+french-coffee
 4
 6 cl Cointreau
 kaffe
@@ -466,6 +522,7 @@ grädde
 Vispa likören med lite rivet apelsinskal. Häll likören i ett värmetåligt glas och fyll på med kaffe. Toppa med lätt vispad grädde.
 *
 French Connection
+french-connection
 3
 2 cl konjak
 2 cl amaretto
@@ -473,6 +530,7 @@ sodavatten
 Mät upp ingredienserna i ett isfyllt whiskyglas. Toppa med soda rör om.
 *
 French Martini
+french-martini
 5
 2 cl vodka
 2 cl björnbärslikör
@@ -482,6 +540,7 @@ French Martini
 Häll alla ingredienser i en shaker ned is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Frozen Cappuccino
+frozen-cappuccino
 6
 2 cl Baileys
 1 cl Kahlúa
@@ -492,6 +551,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas. Pudra över lite kakaopulver eller kanel.
 *
 Frozen Daiquiri
+frozen-daiquiri
 4
 4 cl ljus rom
 2 cl limejuice
@@ -500,6 +560,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas.
 *
 Frozen Banana Daiquiri
+frozen-banana-daiquiri
 5
 4 cl ljus rom
 1 halv banan
@@ -509,6 +570,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas.
 *
 Frozen Blackberry Daiquiri
+frozen-blackberry-daiquiri
 6
 3 cl ljus rom
 1 cl björnbärslikör
@@ -519,6 +581,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas och garnera med citronmeliss.
 *
 Frozen Blueberry Daiquiri
+frozen-blueberry-daiquiri
 6
 3 cl ljus rom
 3 cl blåbärslikör
@@ -529,6 +592,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas och garnera med citronmeliss.
 *
 Frozen Chi Chi
+frozen-chi-chi
 4
 4 cl vodka
 3 cl kokosmjölk
@@ -537,6 +601,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett valfritt glas och garnera med tropisk touch.
 *
 Frozen Mango Daiquiri
+frozen-mango-daiquiri
 5
 4 cl ljus rom
 4 cl mangopuré
@@ -546,6 +611,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas och garnera gärna med skivad mango.
 *
 Frozen Mango Sling
+frozen-mango-sling
 6
 3 cl Absolut Apeach
 1 cl persikolikör
@@ -556,6 +622,7 @@ krossad is
 Tärna mangon och häll alla ingredienser i en blender och mixa till "halvfrozen" konsistens. Häll upp i ett högt highballglas. Garnera gärna med mangoskivor och servera med sugrör.
 *
 Frozen Mojito
+frozen-mojito
 5
 4 cl ljus rom
 3 cl limejuice
@@ -565,6 +632,7 @@ krossad is
 Häll alla ingredienser i en blender och kör tills slät. Servera i ett cocktailglas.
 *
 Frozen Peach Daiquiri
+frozen-peach-daiquiri
 5
 4 cl ljus rom
 4 cl persikopuré
@@ -574,6 +642,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas.
 *
 Frozen Peach Margarita
+frozen-peach-margarita
 5
 3 cl tequila
 1 cl Cointreau
@@ -583,6 +652,7 @@ krossad is
 Häll alla ingredienser i en blender och kör tills slät. Konsistensen ska vara som drickbar sorbet. Servera i ett margaritaglas.
 *
 Frozen Pomegranate Chi Chi
+frozen-pomegranate-chi-chi
 4
 4 cl vodka
 3 cl kokosmjölk
@@ -591,6 +661,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett valfritt glas.
 *
 Frozen Raspberry Daiquiri
+frozen-raspberry-daiquiri
 5
 4 cl Bacardi Razz
 10 st hallon
@@ -600,6 +671,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas. Garnera med färska hallon.
 *
 Frozen Strawberry Daiquiri
+frozen-strawberry-daiquiri
 5
 4 cl ljus rom
 6 st jordgubbar
@@ -609,6 +681,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas och garnera med en jordgubbe.
 *
 Frozen Strawberry Margarita
+frozen-strawberry-margarita
 7
 4 cl tequila
 2 cl Cointreau
@@ -620,6 +693,7 @@ krossad is
 Häll alla ingredienser i en blender och kör tills slät. Konsistensen ska vara som drickbar sorbet. Servera i ett margaritaglas.
 *
 Garden
+garden
 6
 2 cl triple sec
 2 cl Sourz Apple
@@ -630,6 +704,7 @@ Garden
 Häll alla ingredienser, utom Curaçao Bleu, i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas. Droppa lite Curaçao Bleu i drinken som avslutande färgeffekt.
 *
 Gimlet
+gimlet
 3
 6 cl gin
 2 cl lime cordial
@@ -637,6 +712,7 @@ krossad is
 Häll alla ingredienser i ett whiskyglas och rör om. Fyll på med krossad is.
 *
 Gin By You
+gin-by-you
 3
 3 cl gin
 1 cl Absolut Kurant
@@ -644,6 +720,7 @@ Gin By You
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett isfyllt whiskyglas och garnera med röda vinbär.
 *
 Gin Sour
+gin-sour
 4
 4 cl gin
 2 cl citronjuice
@@ -652,12 +729,14 @@ Gin Sour
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt whiskyglas.
 *
 Gin & Tonic
+gin-and-tonic
 2
 6 cl gin
 20 cl tonic
 Fyll ett långsmalt highballglas med iskuber, häll på gin och fyll upp med tonic. Garnera med citron eller limeskiva. Servera med drinkpinne och sugrör.
 *
 Gin & Yang
+gin-and-yang
 6
 3.5 cl gin
 1.5 cl lycheelikör
@@ -668,6 +747,7 @@ skal från grapefrukt
 Kyl ett martiniglas. Häll alla ingredienser i en cocktailshaker och tillsätt rikligt med is. Skaka. Sila och häll upp i martiniglaset. Pressa oljan ur grapefruktskalet över drinken och lägg sedan i skalet i drinken.
 *
 Ginger Kumquat Caipirinha
+ginger-kumquat-caipirinha
 5
 6 cl cachaça
 4 st kumquats
@@ -677,6 +757,7 @@ krossad is
 Skiva kumquats, och tärna ingefäran. Muddla sedan ingefära, kumquats och sockerlag i ett whiskyglas. Fyll glaset med krossad is, häll på cachaça och rör om. Garnera med en skårad ingefärsbit. Servera med sugrör och rörpinne.
 *
 Ginger Snaps
+ginger-snaps
 5
 3 cl Absolut Vodka
 1 cl citronlikör
@@ -686,18 +767,21 @@ Ginger Snaps
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas. Garnera gärna med färsk ingefära.
 *
 Godfather
+godfather
 2
 3 cl whisky
 1 cl amaretto
 Mät upp ingredienserna i ett isfyllt whiskyglas och rör om.
 *
 Godmother
+godmother
 2
 3 cl vodka
 1 cl amaretto
 Mät upp ingredienserna i ett isfyllt whiskyglas och rör om.
 *
 Grapetini
+grapetini
 3
 6 cl Absolut Vanilia
 6 cl blodgrapejuice
@@ -705,6 +789,7 @@ Grapetini
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Harvey Wallbanger
+harvey-wallbanger
 6
 4.5 cl vodka
 10 cl apelsinjuice
@@ -715,6 +800,7 @@ cocktailbär
 Häll vodka och apelsinjuice i ett isfyllt highballglas, rör om och toppa med Galliano. Garnera med apelsinskiva och cocktailbär.
 *
 Hot, Sweet & Spicy
+hot-sweet-and-spicy
 4
 4 cl Absolut Peppar
 3 st jordgubbar
@@ -723,6 +809,7 @@ krossad is
 Detta är en frozen shot där krossad is mixas i en blender - lite i taget - tillsammans med övriga ingredienser till lämplig konsistens. Häll upp i shotglas och servera.
 *
 Galliano Hot Shot
+galliano-hot-shot
 3
 2 cl Galliano
 2 cl kaffe
@@ -730,6 +817,7 @@ grädde
 Skiktas. Börja med att hälla Galliano i ett snapsglas. Häll sedan kaffet försiktigt över baksidan på en tesked och ner i glaset, så att det lägger sig ovanpå Gallianon. Gör därefter detsamma med grädden som ska vispas lätt.
 *
 Green Day
+green-day
 6
 2 cl whisky
 1 cl persikolikör
@@ -740,6 +828,7 @@ socker
 Frosta kanten på ett cocktailglas med lime och socker och ställ på kylning. Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i cocktailglaset.
 *
 Green Mist
+green-mist
 4
 2 cl whisky
 2 cl grön mintlikör
@@ -748,6 +837,7 @@ Green Mist
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Happy Medium
+happy-medium
 5
 2 cl mörk rom
 1 cl vodka
@@ -757,6 +847,7 @@ kanelstång
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylu cocktailglas. Garnera med kanelstång.
 *
 Havana Passion
+havana-passion
 5
 4 cl Havana Club Añejo Blanco
 2 cl Passoã
@@ -766,6 +857,7 @@ krossad is
 Fyll en shaker till hälften med is. Häll på rom och likör, lägg i fruktköttet från en halv pasionsfrukt och skaka kraftigt tills shakern är iskall. Fyll ett highballglas med is och häll över drinken utan att sila. Garnera med en halv passionsfrukt och limeklyftor.
 *
 Hemingway Daiquiri
+hemingway-daiquiri
 5
 6 cl ljus rom
 3 cl limejuice
@@ -775,6 +867,7 @@ lime
 Kyl cocktailglaset med iskuber. Mät upp samtliga ingredienser i en isfylld shaker och skaka kraftigt tills shakern är frostig. Sila ner i ett kylt cocktailglas. Servera med limeskiva.
 *
 Hemingway Special
+hemingway-special
 4
 6 cl ljus rom
 2 cl grapefruktjuice
@@ -783,6 +876,7 @@ Hemingway Special
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila upp i ett whiskyglas och fyll på med krossad is.
 *
 Horse's Neck
+horses-neck
 4
 4 cl konjak
 ginger ale
@@ -791,6 +885,7 @@ ginger ale
 Häll konjak i ett isfyllt highballglas. Fyll upp med ginger ale och rör om. Avsluta med att droppa i lite Angostura.
 *
 In Your Face
+in-your-face
 6
 3.5 cl gin
 2 cl Gifard Ginger of the Indies
@@ -801,6 +896,7 @@ svartpeppar
 Torrskaka först alla ingredienser, skaka sedan en gång till nu med is. Sila och häll upp i coupéglas. Garnera med svartpeppar på ena sidan.
 *
 Indian Mule
+indian-mule
 7
 6 cl vodka
 1.5 cl citronjuice
@@ -812,6 +908,7 @@ mynta
 Muddla ingefära tillsammans med sockerlag. Fyll en shaker till hälften med is, mät upp ingredienserna i den och skaka ordentligt. Sila upp i ett isfyllt highballglas och toppa med sodavatten. Garnera med ingefära och myntablad.
 *
 Irish Coffee
+irish-coffee
 4
 6 cl whiskey
 2 tsk farinsocker
@@ -820,6 +917,7 @@ grädde
 Häll farinsocker och lite hett kaffe i ett värmetåligt glas. Rör om så att farinet löser sig. Tillsätt whoskey och fyll upp med mer kaffe. Toppa med lätt vispad grädde. Obs! Farinsockret är ett måste om grädden ska kunna flyta!
 *
 Italian Lover
+italian-lover
 6
 3 cl grappa
 3 cl Kahlúa
@@ -830,6 +928,7 @@ krossad is
 Fyll en shaker med is. Häll på alla ingredienser och skaka kraftigt tills shakern är iskall. Servera i ett cocktailglas fyllt med krossad is. Garnera med kaffebönor.
 *
 Japanese Margarita
+japanese-margarita
 5
 3 cl tequila
 1 cl melonlikör
@@ -839,6 +938,7 @@ salt
 Frosta kanten av ett cocktailglas med lime och salt och ställ på kylning. Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i det kylda cocktailglaset.
 *
 Japanese Slipper
+japanese-slipper
 4
 2 cl melonlikör
 2 cl Cointreau
@@ -847,6 +947,7 @@ honungsmelon
 Häll alla ingredienser, förutom melon, i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas. Garnera med en skiva honungsmelon.
 *
 Juicy Fruit
+juicy-fruit
 6
 4 cl Absolut Vanilia
 2 cl Butterscotch
@@ -857,6 +958,7 @@ krossad is
 Muddla citronklyftor och 5 st myntablad försiktigt. Fyll glaset med krossad is, häll över de övriga ingredienserna och rör om. Garnera gärna med papaya eller passionsfrukt.
 *
 Kamikaze
+kamikaze
 4
 4 cl vodka
 2 cl Cointreau
@@ -865,12 +967,14 @@ citrongräs
 Häll alla ingredienser i en shaker med is och skaka väl. Sila upp i ett isfyllt whiskyglas. Släpp ner lite citrongräs i glaset som dekoration.
 *
 Kir Royale
+kir-royale
 2
 3 cl svartvinbärslikör
 champagne
 Häll likören i ett kylt champagneglas. Fyll upp med väl kyld champagne.
 *
 Koriander Chili
+koriander-chili
 6
 4 cl Havana Club Añejo Reserva
 3 cl sockerlag
@@ -881,6 +985,7 @@ Koriander Chili
 Muddla alla ingredienser, utom rom, i en shaker. Fyll på med is och häll över rom. Skaka kraftigt och sila upp i ett cocktailglas. Garnera med koriander.
 *
 La Minelle
+la-minelle
 9
 Citrongräs
 Chili
@@ -894,6 +999,7 @@ citronskal
 Börja med att muddla citrongräs och tunnt skuren chili med lite av sockerlagen i en shakerdel. Mät upp och häll i de övriga ingredienserna förutom champagnen. Skaka med så mycket is som möjligt. Dubbelsila och häll upp i coupéglas (shakersil och finmaskig sil). Toppa med champagne. Servera med citronskal.
 *
 Lemon Drop Shot
+lemon-drop-shot
 4
 6 cl vodka
 3 cl citronjuice
@@ -902,6 +1008,7 @@ socker
 Häll vodka och citronsaft i en shaker med is. Skaka och sila upp i ett shotglas. Skiva citronen och doppa en skiva i socker på båda sidorna och lägg ovanpå glaskanten. Dricks som en tequilashot.
 *
 Lingon
+lingon
 3
 4 cl whisky
 2 tsk lingonmarmelad
@@ -909,6 +1016,7 @@ Lingon
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Ling Gin
+ling-gin
 4
 4 cl gin
 1 cl citronjuice
@@ -917,6 +1025,7 @@ Ling Gin
 Häll alla ingredienser i en shaker med is och skaka krafigt. Sila ner i ett kylt cocktailglas.
 *
 Little Quarter
+little-quarter
 7
 1 st råsockerbit
 2 droppar Angostura Bitter
@@ -928,12 +1037,14 @@ sodavatten
 Dränk sockerbiten i bitter och krossa den försiktigt med lite sodavatten i tt rörglas. Tillsätt sprit i ett rörglas med is och rör om, för att kyla och lätt vattna ur drinken. Sila upp i ett rocks-glas med is och garnera med en bit apelsin.
 *
 Liquid Viagra
+liquid-viagra
 2
 2 cl Jägermeister
 4 cl Red Bull
 Häll Jägermeister i ett shotglas. Fyll upp med iskall Red Bull och svep!
 *
 Long Beach Iced Tea
+long-beach-iced-tea
 7
 2 cl vodka
 2 cl gin
@@ -945,6 +1056,7 @@ tranbärsjuice
 Mät upp ingredienserna, förutom Cointreaun, i ett isfyllt highballglas. Fyll på med tranbärsjuice och rör om. Toppa med Cointreau.
 *
 Long Island Iced Tea
+long-island-ice-tea
 8
 2 cl vodka
 2 cl gin
@@ -957,6 +1069,7 @@ cola
 Mät upp ingredienserna i ett isfyllt highballglas. Fyll upp med cola och rör om. Garnera med lime.
 *
 Lumumba
+lumumba
 3
 6 cl konjak
 varm choklad
@@ -964,6 +1077,7 @@ grädde
 Häll konjak i ett värmetåligt glas. Fyll upp med choklad. Toppa med lätt vispad grädde.
 *
 Lynchburg Lemonade
+lynchburg-lemonade
 5
 3 cl Jack Daniel's
 3 cl Triple Sec
@@ -973,6 +1087,7 @@ iskuber
 Fyll ett highballglas till hälften med iskuber. Skaka whisky, Triple Sec och citronjuice i en shaker med is. Sila upp i ett highballglas. Fyll upp med fruktsoda. Garnera med citronskiva.
 *
 Mai Tai
+mai-tai
 9
 2 cl ljus rom
 2 cl mörk rom
@@ -986,6 +1101,7 @@ krossad is
 Fyll glaset rikligt med krossad is. Fyll på med ingredienserna. Rör om. Garnera med cocktailbär, mynta och limezest. Sätt i ett par sugrör.
 *
 Mango Sling
+mango-sling
 6
 4 cl Absolut Apeach
 2 cl persikolikör
@@ -996,6 +1112,7 @@ krossad is
 Skiva mangon och mixa alla ingredienser i en blender med krossad is till en "halvfrozen" konsistens. Häll upp i ett högt highballglas. Garnera med mangoskivor och servera med sugrör.
 *
 Manhattan
+manhattan
 3
 4 cl whisky
 2 cl röd vermouth
@@ -1003,6 +1120,7 @@ Manhattan
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag, tills det bildas imma på glaset. Sila snabbt upp i ett kylt cocktailglas och garnera med cocktailbär.
 *
 Margarita
+margarita
 4
 4 cl tequila
 2 cl Cointreau
@@ -1011,6 +1129,7 @@ salt
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila upp i ett kylt margaritaglas med saltad kant.
 *
 Melon Ball
+melon-ball
 4
 2 cl Absolut Citron
 1 cl fläderblomslikör
@@ -1019,6 +1138,7 @@ stjärnfrukt
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas och garnera med stjärnfrukt.
 *
 Melonberry
+melonberry
 4
 3 cl Bacardi Grand Melón
 3 cl jordgubbslikör
@@ -1027,6 +1147,7 @@ vattenmelon
 Skiva vattenmelon och mixa en skiva med resten av ingredienserna i en blender med is tills du får en slät drink. Servera!
 *
 Metropolitan
+metropolitan
 5
 3 cl Absolut Kurant
 1 cl Cointreau
@@ -1036,6 +1157,7 @@ Metropolitan
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Mexican Iced Coffee
+mexican-iced-coffee
 5
 2 cl tequila
 2 cl Absolut Vanilia
@@ -1045,6 +1167,7 @@ chokladsås
 Fyll en shaker till hälften med is och skaka samtliga ingredienser tills shakern är iskall. Sila över i ett glas fyllt med is. Ringla över lite chokladsås.
 *
 Milky Valentine
+milky-valentine
 4
 3 cl jordgubbslikör
 1.5 cl Baileys
@@ -1053,6 +1176,7 @@ Milky Valentine
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett whiskyglas och fyll på med krossad is. Servera med sugrör.
 *
 Mint Julep
+mint-julep
 3
 6 cl bourbon
 mynta
@@ -1060,6 +1184,7 @@ mynta
 Muddla ca 10 st myntablad och sockerlag försiktigt. Fyll glaset med krossad is, häll över bourbon och rör om. Garnera med myntablad.
 *
 Misty Bitch
+misty-bitch
 4
 2 cl vodka
 2 cl Campari
@@ -1068,6 +1193,7 @@ Misty Bitch
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett isfyllt whiskyglas.
 *
 My Funny Valentine
+my-funny-valentine
 3
 2 cl Absolut Vanilia
 2 cl hallonlikör
@@ -1075,6 +1201,7 @@ mousserande vin
 Häll likör och vodka i ett champagneglas och rör om. Fyll upp med iskallt mousserande vin. Låt gärna några frysta hallon guppa i drinken och samtidigt kyla av.
 *
 My Style
+my-style
 6
 1 cl acaciahonung
 5 cl Bacardi Superior
@@ -1085,6 +1212,7 @@ mynta
 Blanda limejuice och honung väl i en shaker. Det är viktigt att honungen löser upp sig helt. Häll i is, övriga ingredienser och ca 3 myntablad, och skaka kraftigt. Dubbelsila (shakersil och finmaskig sil) och häll upp i coupéglas.
 *
 Nacional De Cuba
+nacional-de-cuba
 5
 4 cl rom
 2 cl apricot brandy
@@ -1094,6 +1222,7 @@ ananas
 Muddla ananas i ett whiskyglas. Fyll glaset med krossad is, tillsätt övriga ingredienser och rör om. Servera med sugrör och rörpinne.
 *
 Negroni
+negroni
 3
 1 cl gin
 1 cl Campari
@@ -1101,6 +1230,7 @@ Negroni
 Mät upp ingredienserna i ett isfyllt whiskyglas och rör om. Lägg i en citronskiva som dekoration.
 *
 Negroni Sbagliato
+negroni-sbagliato
 4
 3 cl Martini Rosso
 3 cl Campari Bitter
@@ -1109,6 +1239,7 @@ apelsin
 Häll alla ingredienser i ett rörglas fyllt med is, rör runt och häll upp i ett isfyllt Old-fashioned-glas. Servera med en apelsinskiva.
 *
 New York Sour
+new-york-sour
 6
 4 cl bourbon
 3 cl apelsinjuice
@@ -1119,6 +1250,7 @@ New York Sour
 Häll alla ingredienser, utom rödvin, i en shaker med is och skaka kraftigt. Sila ner i ett kylt whiskyglas. Toppa med rödvin.
 *
 Nordic Blueberry Caipiroska
+nordic-blueberry-caipiroska
 5
 6 cl Znaps Bärvodka
 1.5 cl citronjuice
@@ -1128,6 +1260,7 @@ blåbär
 Häll citron och sockerlag i ett whiskyglas. Fyll glaset med krossad is och rör om. Droppa i Curaçao. Servera med sugrör och rörpinne.
 *
 Nordic Lingonberry Caipiroska
+nordic-lingonberry-caipiroska
 5
 6 cl Koskenkorva Lingonberry
 1.5 cl citronjuice
@@ -1137,6 +1270,7 @@ lingon
 Häll citron och sokerlag i ett whiskyglas. Fyll glaset med krossad is varvat med lingon. Häll på vodka och rör om. Droppa i grenadin. Servera med sugrör och rörpinne.
 *
 Old Fashioned
+old-fashioned
 6
 6 cl bourbon
 1 st sockerbit
@@ -1147,6 +1281,7 @@ apelsin
 Lägg en sockerbit i ett Old-fashioned-glas och droppa Angostura Bitter över. Vänta tills sockerbiten dragit åt sig de bittra dropparna. Häll sedan lite soda ovanpå och muddla försiktigt tills sockerbiten är helt upplöst. Fyll på med is och whisky. Garnera med en apelsinskiva och cocktailbär.
 *
 Palm Beach
+palm-beach
 4
 2 cl gin
 2 cl ljus rom
@@ -1155,6 +1290,7 @@ Palm Beach
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas.
 *
 Paradise
+paradise
 3
 3 cl gin
 1 cl apricot brandy
@@ -1162,6 +1298,7 @@ Paradise
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas.
 *
 Paradise Mango
+paradise-mango
 3
 3 cl gin
 1 cl Passoã Spicy Mango
@@ -1169,6 +1306,7 @@ Paradise Mango
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas.
 *
 Pineapple Margarita
+pineapple-margatita
 3
 2 cl tequila
 2 cl Sourz Pineapple
@@ -1176,6 +1314,7 @@ Pineapple Margarita
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i kylt cocktailglas.
 *
 Pink Lady
+pink-lady
 4
 4 cl gin
 2 cl citronjuice
@@ -1184,6 +1323,7 @@ Pink Lady
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i kylt cocktailglas.
 *
 Piña Colada
+pina-colada
 4
 6 cl ljus rom
 6 cl kokosmjölk
@@ -1192,6 +1332,7 @@ krossad is
 Mixa ingredienserna i en blender. Häll upp i ett exotiskt hurricaneglas och garnera gärna med allt exotiskt du kan hitta av frukter, paraplyer och foliepalmer!
 *
 Planter's Punch
+planters-punch
 8
 4.5 cl mörk rom
 3.5 cl apelsinjuice
@@ -1204,6 +1345,7 @@ iskuber
 Häll samtliga ingredienser, förutom Angostura Bitter, i en shaker fylld med is och skaka väl. Sila upp i ett glas fyllt med is. Toppa med Angostura Bitter.
 *
 Pomegranatini
+pomegratini
 5
 2 cl vodka
 1 cl granatäppellikör
@@ -1213,6 +1355,7 @@ Pomegranatini
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Queens's Delight
+queens-delight
 3
 6 cl gin
 2 msk drottningsylt
@@ -1220,6 +1363,7 @@ fruktsoda
 Mät upp gin i ett kylt champagneglas och fyll på med krossad is. Häll i drottningsylt och toppa med fruktsoda. Garnera gärna med färska bär.
 *
 Raspberry Bellini
+raspberry-bellini
 4
 4 cl hallonpuré
 4 cl hallonlikör
@@ -1228,6 +1372,7 @@ hallon
 Häll likör och puré i ett kyl champagneglas. Fyll upp med iskall champagne. Rör om försiktigt och garnera med hallon på en drinkpinne.
 *
 Raspberry Black Russian
+raspberry-black-russian
 3
 3 cl hallonvodka
 3 cl Kahlúa
@@ -1235,6 +1380,7 @@ hallon
 Häll i ingredienserna i ett isfyllt whiskyglas och rör om. Toppa med hallon.
 *
 Rasberry Kiss
+rasberry-kiss
 5
 3 cl vit kakaolikör
 3 cl hallonlikör
@@ -1244,6 +1390,7 @@ hallon
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i martiniglas. Garnera med hallon.
 *
 Rasberry Mojito
+rasberry-mojito
 6
 6 cl Bacardi Razz
 1 st lime
@@ -1254,6 +1401,7 @@ sodavatten
 Muddla försiktigt lifeklyftor, några av hallonen och ca 10 myntablad tillsammans med sockerlag i ett highballglas. Fyll glaset med krossad is, häll över rom och rör om. Fyll upp med sodavatten. Servera med sugrör, en kvist mynta och färska hallon som garnering.
 *
 Ritz Fizz
+ritz-fizz
 4
 1 cl Curaçao Bleu
 1 cl amaretto
@@ -1262,6 +1410,7 @@ champagne
 Mät upp ingredienserna i ett kylt champagneglas. Fyll på med iskall champagne. Rör om försiktigt. Garnera gärna med blåbär.
 *
 Rob Roy
+rob-roy
 3
 2 cl whisky
 2 cl röd vermouth
@@ -1269,6 +1418,7 @@ Rob Roy
 Häll whisky och vermouth tillsammans med rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag. Sila upp i ett kylt cocktailglas och tillsätt Angostura Bitter. Garnera gärna med röda cocktailbär.
 *
 Rose
+rose
 5
 3 cl gin
 1.5 cl vermouth
@@ -1278,6 +1428,7 @@ Rose
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt cocktailglas.
 *
 Rossini
+rossini
 4
 4 cl jordgubbar
 1 cl citronjuice
@@ -1286,6 +1437,7 @@ mousserande vin
 Kör jordgubbar (går bra med frysta) till puré i en blender. Tillsätt citronjuice och sockerlag. Häll ca 4 cl av purén i ett champagneglas. Fyll på med iskallt mousserande vin. Rör om försiktigt. Garnera med en jordgubbe på glaskanten.
 *
 Ruby Red
+ruby-red
 3
 4 cl vodka
 2 cl Campari
@@ -1293,6 +1445,7 @@ grapefruktjuice
 Häll vodka och Campari i ett isfyllt highballglas. Fyll på med grapefruktjuice och rör om.
 *
 Russian Spring Punch
+russian-spring-punch
 7
 2.5 cl vodka
 2.5 cl citronjuice
@@ -1304,12 +1457,14 @@ krossad is
 Häll samtliga ingredienser, förutom champagne, i en shaker fylld med is och skaka väl. Sila upp i sling- eller highballglas fyllt till två tredjedelar med krossad is. Fyll upp med champagne. Garnera med mynta och hallon.
 *
 Rusty Nail
+rusty-nail
 2
 3 cl whisky
 1 cl Drambuie
 Häll whisky och Drambuie i ett isfyllt whiskyglas och rör om.
 *
 Sangria
+sangria
 11
 2 flaskor rött vin
 12 cl Cointreau
@@ -1325,6 +1480,7 @@ vindruvor
 Häll alla ingredienser i en stor bålskål och rör om rejält. Tillsätt ett stort glas is och lägg ner skivad frukt med vältvättade skal.
 *
 Sazerac
+sazerac
 5
 1 cl Aniskryddad sprit
 1 st sockerbit
@@ -1334,6 +1490,7 @@ Peychaud's bitter
 Skölj ett kylt old fashioned-glas med spriten (Absinthe), tillsätt krossad is och ställ glaset åt sidan. Stänk Peychaud's bitter över sockerbiten i ett annat glas och muddla den försiktigt, fyll glaset till hälften med is, häll över konjak och rör om väl. Släng isen och eventuellt överskott av Absinthe från det första glaset och sila drycken från det andra glaset i det första. Garnera med citronskal.
 *
 Screwdriver Shot
+screwdriver-shot
 3
 4 cl vodka
 3 cl apelsinjuice
@@ -1341,6 +1498,7 @@ apelsin
 Blanda vodka, apelsinjuice och is i ett blandglas och rör om med världens minsta skruvmejsel. Sila upp i shotglas och lägg en apelsinklyfta ovanpå.
 *
 Shaken Screwdriver
+shaken-screwdriver
 3
 6 cl vodka
 1 st citron
@@ -1348,6 +1506,7 @@ Shaken Screwdriver
 Pressa apelsiner och citron. Fyll en shaker till hälften med is, häll på färskpressad juice och vodka i shakern och skaka kraftigt i 30 sekunder tills shakern är iskall. Sila upp i ett frukostglas utan is.
 *
 Shaking Orgasm
+shaking-orgasm
 4
 2 cl Baileys
 2 cl Kahlúa
@@ -1356,6 +1515,7 @@ Shaking Orgasm
 Fyll en shaker till hälften med is och skaka alla ingredienser tills shakern är iskall. Sila över i ett kylt cocktailglas. Strö på riven choklad.
 *
 Sidecar
+sidecar
 3
 3 cl konjak
 3 cl Cointreau
@@ -1363,6 +1523,7 @@ Sidecar
 Fyll en shaker till hälften med is. Häll på alla ingredienser och skaka kraftigt tills shakern är iskall. Sila över i ett kylt cocktailglas.
 *
 Singapore Sling
+singapore-sling
 9
 3 cl gin
 1.5 cl Heering Cherry Liqueur
@@ -1376,6 +1537,7 @@ iskuber
 Mät upp samtliga ingredienser förutom DOM, i en isfylld shaker och skaka kraftigt tills shakern är frostig. Sila ner i ett isfyllt sling- eller highballglas. Toppa med DOM.
 *
 South Square Swizzle
+south-square-swizzle
 7
 4 cl Pampero
 1 cl Bitter Truth Golden Falernum
@@ -1387,6 +1549,7 @@ Peychaud's Bitter
 Häll alla ingrediense, förutom Paychaud's Bitter, i ett highballglas. Fyll två tredjedelar av glaset med krossad is och rör runt kraftigt i cirka 10 sekunder. Fyll nu upp hela glaset med mer krossad is tills det är överfyllt. Stänk på med Peychaud's Bitter på toppen och garnera med en myntakvist och sätt i ett sugrör.
 *
 Strawberry Daiquiri
+strawberry-daiquiri
 5
 6 cl ljus rom
 8 st jordgubbar
@@ -1396,6 +1559,7 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett margaritaglas. Garnera med en jordgubbe.
 *
 Strawberry Margarita
+strawberry-margarita
 6
 4 cl tequila
 3 cl citronjuice
@@ -1406,6 +1570,7 @@ socker
 Frosta kanten av ett cocktailglas med citron och socker och ställ på kylning. Mixa ingredienserna i en blender med krossad is till "halvfrozen" konsistens - den ska inte kännas som sorbet, bara bli kall. Häll direkt upp i det kylda cocktailglaset.
 *
 Strawberry Martini
+strawberry-martini
 3
 3 cl gin
 1 cl vermouth
@@ -1413,6 +1578,7 @@ Strawberry Martini
 Häll ingredienserna och rikligt med is i ett strt blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag tills det bildas imma på glaset. Sila snabbt upp i ett kylt cocktailglas och garnera med en jordgubbe.
 *
 Strawberry Kiss
+strawberry-kiss
 5
 2 cl amaretto
 2 cl triple sec
@@ -1422,12 +1588,14 @@ krossad is
 Häll alla ingredienser i en blender och mixa rejält, konsistensen skall vara som sorbet. Häll upp i ett cocktailglas. Garnera med färska jordgubbar.
 *
 Sweet Martini
+sweet-martini
 2
 3 cl gin
 1 cl röd söt vermouth
 Häll ingredienserna och rikligt med is i ett stort blandglas. Rör om i alla riktningar med flera snabba och kraftiga tag tills det bildas imma på glaset. Sila snabbt upp i ett kylt cocktailglas och garnera gärna med ett körsbär.
 *
 Sweetheart Caipiroska
+sweetheart-caipiroska
 4
 4 cl Absolut Raspberri
 1 cl citronjuice
@@ -1436,6 +1604,7 @@ jordgubbar
 Häll citron i ett whiskyglas. Fyll på glaset med krossad is varvat med skivade jordgubbar. Häll på vodka och rör om. Droppa i grenadin och rör om.
 *
 Tequila Sunrise
+tequila-sunrise
 4
 6 cl tequila
 15 cl apelsinjuice
@@ -1444,6 +1613,7 @@ iskuber
 Häll tequila i ett isfyllt glas. Fyll på med apelsinjuice och rör om. Droppa försiktigt i grenadin så att det bildas en solnedgångseffekt när det röda sjunker till botten. Garnera med apelsinskiva och rött cocktailbär. Stick ner en cocktailpinne och, gärna, ett paraply för klassiskt kitschig sunriselook!
 *
 The Chinese Climbing Boy
+the-chinese-climbing-boy
 7
 2 barskedar Sichuanpeppar
 5 cl Buffalo Trace Bourbon
@@ -1455,6 +1625,7 @@ sågspån med smak av Bourbon
 Muddla Sichuanpeppar i botten på shakern, tillsätt resten av ingredienserna i shakern och torrskaka. Tillsätt sedan is och skaka. Dubbelsila och häll upp på flaska. Använd en rökmaskin och fyll flaskan med rök. Låt stå i 30 sekunder så att cocktailen får en hint av röksmaken. Servera i ett kylt Coupetteglas.
 *
 Tropical Caipirinha
+tropical-caipirinha
 5
 4 cl cachaça
 2 cl amaretto
@@ -1464,6 +1635,7 @@ Tropical Caipirinha
 Muddla limeklyftor i ett whiskyglas. Fyll glaset med krossad is, häll på cachaça och amaretto. Rör om. Garnera på tropiskt vis och servera med sugrör och rörpinne.
 *
 Vampiro
+vampiro
 10
 5 cl tequila
 7 cl tomatjuice
@@ -1478,6 +1650,7 @@ krossad is
 Finhacka en skiva lök och skär några skivor röd chilipeppar. Häll upp samtliga ingredienser i en isfylld shaker och skaka kraftigt tills shakern är frostig. Sila ner i highballglas fyllt med krossad is. Garnera med limeskiva och röd chilifrukt.
 *
 Vanilla Currant
+vanilla-currant
 5
 3 cl Absolut Vanilia
 3 cl svartvinbärslikör
@@ -1487,6 +1660,7 @@ svarta vinbär
 Fyll ett glas med krossad is varvat med svarta vinbär. Häll på vodka, likör och lime och rör om försiktigt. Fyll på med sprite.
 *
 Vanilla Peach Margarita
+vanilla-peach-margarita
 5
 2 cl tequila
 1 cl Absolut Vanilia
@@ -1496,6 +1670,7 @@ Vanilla Peach Margarita
 Häll alla ingredienser, förutom persikopurén, i en shaker med is och skaka kraftigt. Sila ner i kylt margaritaglas. Tillsätt persikopuré och rör om försiktigt.
 *
 Vanilla White Russian
+vanilla-white-russian
 4
 4 cl Absolut Vanilia
 2 cl Kahlúa
@@ -1504,6 +1679,7 @@ grädde
 Mät upp alla ingredienser utom grädde i en shaker med is och skaka väl. Sila upp i ett isfyllt whiskyglas. Toppa med lätt vispad grädde.
 *
 Watermelon Love
+watermelon-love
 5
 6 cl Bacardi Grand Melón
 2 cl sockerlag
@@ -1513,6 +1689,7 @@ Watermelon Love
 Skär bort skal och kärnor från den kylskåpskalla vattenmelonen och skär den i småbitar. Häll bitarna i en blender tillsammans med färskpressad limejuice, rom och sockerlag. Mixa alla ingredienser i 20 sekunder. Fyll glaset med krossad is och häll över drinken. Garnera med färsk vattenmelon.
 *
 Whisky Sour
+whisky-sour
 3
 6 cl whisky
 3 cl citronjuice
@@ -1520,6 +1697,7 @@ Whisky Sour
 Häll alla ingredienser i en shaker med is och skaka kraftigt. Sila ner i ett kylt whiskyglas.
 *
 Winter Apple
+winter-apple
 6
 3 cl vodka
 3 cl calvados
@@ -1530,6 +1708,7 @@ kanelstång
 Häll sockerlag och citron i ett whiskyglas. Fyll upp med krossad is varvat med äppelbitar. Tillsätt vodka och likör och rör om försiktigt. Garnera med kanelstång.
 *
 Winter Kiss
+winter-kiss
 6
 3 cl whisky
 3 cl hallonlikör

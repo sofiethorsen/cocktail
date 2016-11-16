@@ -71,6 +71,7 @@ def search_recipe(recipe=None):
 
     return jsonify(result=(dict(
         name=recipe.name,
+        id=recipe.recipe_id,
         description=recipe.description,
         ingredients=ingredients,
     )))

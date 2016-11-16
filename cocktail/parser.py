@@ -61,10 +61,11 @@ def parse_recipes_from_file(path):
     with open(path) as recipes_file:
         while True:
             name = encode(_get_line(recipes_file))
+            recipe_id = encode(_get_line(recipes_file))
             if not name:
                 break
             number_of_ingredients = int(recipes_file.readline())
             ingredients = _ingredients_from_file(recipes_file, number_of_ingredients)
             description = encode(_description_from_file(recipes_file))
-            recipes.append(RecipeObject(name, description.strip('\n'), ingredients))
+            recipes.append(RecipeObject(name, recipe_id, description.strip('\n'), ingredients))
     return recipes
