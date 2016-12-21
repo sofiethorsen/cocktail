@@ -55,6 +55,9 @@ def article_by_name_or_type(string):
 def recipe_by_recipe_item(recipe_item):
     return session.query(Recipe).filter_by(_id=recipe_item.recipe_id).all()
 
+def recipe_by_recipe_id(recipe_id):
+    return session.query(Recipe).filter_by(recipe_id=recipe_id).all()
+
 
 def recipe_items_by_recipe_id(recipe):
     return session.query(RecipeItem).filter_by(recipe_id=recipe._id).all()

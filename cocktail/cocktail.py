@@ -77,6 +77,20 @@ def search_recipe(recipe=None):
         display_src=recipe.display_src
     )))
 
+@app.route('/recipebyid/<recipeid>')
+@crossdomain(origin='*')
+def search_recipebyid(recipeid=None):
+    recipe = db.recipe_by_recipe_id(recipeid)[0]
+    ingredients = _ingredients_dict_from_list(db.recipe_item_by_recipe(recipe))
+
+    return jsonify(result=(dict(
+        name=recipe.name,
+        id=recipe.recipe_id,
+        description=recipe.description,
+        ingredients=ingredients,
+        display_src=recipe.display_src
+    )))
+
 
 def _ingredients_dict_from_list(ingredients_list):
     ingredients = {}
@@ -118,7 +132,8 @@ def _append_to_result_list(ingredient, result, was_type=False):
             categorySearch=was_type))
 
 
-@app.route('/recipesbyingredients', methods=['GET'])
+@app.route('/recipesbyingredients')
+@crossdomain(origin='*')
 def search_recipes_by_ingredient():
     recipes = {}
     result = []
@@ -150,9 +165,8 @@ def search_recipes_by_ingredient():
         recipes[recipe]['difference'] = difference
 
     sorted_recipes = sorted(recipes.items(), key=lambda x: (x[1]['difference'], x[1]['numberOfIngredients']))
-    result.append(dict(recipes=sorted_recipes))
 
-    return jsonify(result=result)
+    return jsonify(result=dict(recipes=sorted_recipes))
 
 
 def add_ingredient(recipes_dict, recipe, recipe_item):
@@ -163,12 +177,17 @@ def add_ingredient(recipes_dict, recipe, recipe_item):
         ingredients.add(recipe_item.name)
 
         all_ingredients = set(item.name for item in db.recipe_item_by_recipe(recipe))
+        ing = _ingredients_dict_from_list(db.recipe_item_by_recipe(recipe))
 
         recipes_dict[recipe.name]['numberOfIngredients'] = len(all_ingredients)
         recipes_dict[recipe.name]['matches'] = ingredients
         recipes_dict[recipe.name]['nonMatches'] = all_ingredients
+        recipes_dict[recipe.name]['display_src'] = recipe.display_src
+        recipes_dict[recipe.name]['recipe_id'] = recipe.recipe_id
+        recipes_dict[recipe.name]['description'] = recipe.description
+        recipes_dict[recipe.name]['ingredients'] = ing
     else:
         recipes_dict[recipe.name]['matches'].add(recipe_item.name)
 
 if __name__ == "__main__":
-    app.run(port=config.PORT, host=config.HOST, debug=config.DEBUG)
+    app.run(port=config.PORT, host=config.HOST, debug=True)
